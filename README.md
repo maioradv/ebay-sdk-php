@@ -86,3 +86,5 @@ printf("The official eBay time is: %s\n", $response->Timestamp->format('H:i (\G\
 Licensed under the [Apache Public License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
 
 Copyright 2016 [David T. Sadler](http://twitter.com/davidtsadler)
+
+Updated 2020 by MaiorADV
