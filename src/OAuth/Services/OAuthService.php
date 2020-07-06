@@ -183,12 +183,18 @@ class OAuthService
         $urlParams = [
             'client_id'     => $this->getConfig('credentials')->getAppId(),
             'redirect_uri'  => $this->getConfig('ruName'),
-            'response_type' => 'code',
-            'state'         => $params['state'],
+            'response_type' => (! empty($params['response_type']))? $params['response_type'] : 'code',
             'scope'         => implode($params['scope'], ' ')
-
         ];
+        
+        if (array_key_exists('state', $params)) {
+            $urlParams['state'] = $params['state'];
+        }
 
+        if (array_key_exists('prompt', $params)) {
+            $urlParams['prompt'] = $params['prompt'];
+        }
+        
         return $url.http_build_query($urlParams, null, '&', PHP_QUERY_RFC3986);
     }
 
