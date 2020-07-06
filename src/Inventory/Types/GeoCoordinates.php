@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace maiorADV\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property double $latitude
  * @property double $longitude
  */
-class GeoCoordinates extends \DTS\eBaySDK\Types\BaseType
+class GeoCoordinates extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

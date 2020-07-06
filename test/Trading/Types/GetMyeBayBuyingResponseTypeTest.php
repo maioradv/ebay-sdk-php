@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace maiorADV\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\GetMyeBayBuyingResponseType;
+use maiorADV\eBaySDK\Trading\Types\GetMyeBayBuyingResponseType;
 
 class GetMyeBayBuyingResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetMyeBayBuyingResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetMyeBayBuyingResponseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\GetMyeBayBuyingResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

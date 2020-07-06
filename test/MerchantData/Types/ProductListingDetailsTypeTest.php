@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace maiorADV\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\ProductListingDetailsType;
+use maiorADV\eBaySDK\MerchantData\Types\ProductListingDetailsType;
 
 class ProductListingDetailsTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductListingDetailsTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\ProductListingDetailsType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\MerchantData\Types\ProductListingDetailsType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

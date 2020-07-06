@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\RuleActionDetailType $actionDetail
- * @property \DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType[] $condition
+ * @property \maiorADV\eBaySDK\PostOrder\Types\RuleActionDetailType $actionDetail
+ * @property \maiorADV\eBaySDK\PostOrder\Types\RuleConditionDetailType[] $condition
  */
-class RuleTemplateDetailType extends \DTS\eBaySDK\Types\BaseType
+class RuleTemplateDetailType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'actionDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleActionDetailType',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\RuleActionDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'actionDetail'
         ],
         'condition' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleConditionDetailType',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\RuleConditionDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'condition'

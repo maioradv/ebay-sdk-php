@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property integer $listId
- * @property \DTS\eBaySDK\PostOrder\Types\RuleSummaryType[] $ruleAffected
+ * @property \maiorADV\eBaySDK\PostOrder\Types\RuleSummaryType[] $ruleAffected
  */
-class ModifyCustomListResponse extends \DTS\eBaySDK\Types\BaseType
+class ModifyCustomListResponse extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class ModifyCustomListResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'listId'
         ],
         'ruleAffected' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\RuleSummaryType',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\RuleSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ruleAffected'

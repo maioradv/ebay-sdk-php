@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Product\Types;
+namespace maiorADV\eBaySDK\Test\Product\Types;
 
-use DTS\eBaySDK\Product\Types\AddProductsRequest;
+use maiorADV\eBaySDK\Product\Types\AddProductsRequest;
 
 class AddProductsRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AddProductsRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\AddProductsRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Product\Types\AddProductsRequest', $this->obj);
     }
 
     public function testExtendsBaseServiceRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\BaseServiceRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Product\Types\BaseServiceRequest', $this->obj);
     }
 }

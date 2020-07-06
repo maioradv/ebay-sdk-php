@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace maiorADV\eBaySDK\HalfFinding\Types;
 
 /**
  *
  */
-class GetVersionRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
+class GetVersionRequest extends \maiorADV\eBaySDK\HalfFinding\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

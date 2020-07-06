@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \maiorADV\eBaySDK\Trading\Types\MemberMessageExchangeArrayType $MemberMessage
+ * @property \maiorADV\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $HasMoreItems
  */
-class GetMemberMessagesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetMemberMessagesResponseType extends \maiorADV\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'MemberMessage' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\MemberMessageExchangeArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MemberMessage'
         ],
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'

@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace maiorADV\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
  * @property string $currencyId
  */
-class Amount extends \DTS\eBaySDK\Types\DoubleType
+class Amount extends \maiorADV\eBaySDK\Types\DoubleType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace maiorADV\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $marketplace_id
  */
-class GetPromotionSummaryReportRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetPromotionSummaryReportRestRequest extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace maiorADV\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\GetInquiryRestResponse;
+use maiorADV\eBaySDK\PostOrder\Types\GetInquiryRestResponse;
 
 class GetInquiryRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetInquiryRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetInquiryRestResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\PostOrder\Types\GetInquiryRestResponse', $this->obj);
     }
 
     public function testExtendsInquiryDetailsResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\InquiryDetailsResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\PostOrder\Types\InquiryDetailsResponse', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace maiorADV\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\GetUserContactDetailsRequestType;
+use maiorADV\eBaySDK\Trading\Types\GetUserContactDetailsRequestType;
 
 class GetUserContactDetailsRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetUserContactDetailsRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetUserContactDetailsRequestType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\GetUserContactDetailsRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }
 }

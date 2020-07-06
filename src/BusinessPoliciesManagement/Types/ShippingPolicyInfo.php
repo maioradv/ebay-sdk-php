@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace maiorADV\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
@@ -19,21 +19,21 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $dispatchTimeReason
  * @property string $shippingOption
  * @property string[] $excludeShipToLocation
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo $shippingProfileDiscountInfo
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping $freightShipping
+ * @property \maiorADV\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo $shippingProfileDiscountInfo
+ * @property \maiorADV\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping $freightShipping
  * @property string[] $shipToLocations
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService[] $domesticShippingPolicyInfoService
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService[] $intlShippingPolicyInfoService
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance $insurance
+ * @property \maiorADV\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService[] $domesticShippingPolicyInfoService
+ * @property \maiorADV\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService[] $intlShippingPolicyInfoService
+ * @property \maiorADV\eBaySDK\BusinessPoliciesManagement\Types\Insurance $insurance
  * @property string $intlRateTable
  * @property string $domesticRateTable
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $packagingHandlingCosts
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $internationalPackagingHandlingCosts
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode $shippingPolicyCurrency
+ * @property \maiorADV\eBaySDK\BusinessPoliciesManagement\Types\Amount $packagingHandlingCosts
+ * @property \maiorADV\eBaySDK\BusinessPoliciesManagement\Types\Amount $internationalPackagingHandlingCosts
+ * @property \maiorADV\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode $shippingPolicyCurrency
  * @property boolean $GlobalShipping
  * @property boolean $EligibleForPickupDropOff
  */
-class ShippingPolicyInfo extends \DTS\eBaySDK\Types\BaseType
+class ShippingPolicyInfo extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -82,13 +82,13 @@ class ShippingPolicyInfo extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'excludeShipToLocation'
         ],
         'shippingProfileDiscountInfo' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo',
+            'type' => 'maiorADV\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingProfileDiscountInfo'
         ],
         'freightShipping' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping',
+            'type' => 'maiorADV\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'freightShipping'
@@ -100,19 +100,19 @@ class ShippingPolicyInfo extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'shipToLocations'
         ],
         'domesticShippingPolicyInfoService' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService',
+            'type' => 'maiorADV\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'domesticShippingPolicyInfoService'
         ],
         'intlShippingPolicyInfoService' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService',
+            'type' => 'maiorADV\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'intlShippingPolicyInfoService'
         ],
         'insurance' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance',
+            'type' => 'maiorADV\eBaySDK\BusinessPoliciesManagement\Types\Insurance',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'insurance'
@@ -130,13 +130,13 @@ class ShippingPolicyInfo extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'domesticRateTable'
         ],
         'packagingHandlingCosts' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'maiorADV\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'packagingHandlingCosts'
         ],
         'internationalPackagingHandlingCosts' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount',
+            'type' => 'maiorADV\eBaySDK\BusinessPoliciesManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'internationalPackagingHandlingCosts'

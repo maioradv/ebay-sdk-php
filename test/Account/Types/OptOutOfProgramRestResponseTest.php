@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace maiorADV\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\OptOutOfProgramRestResponse;
+use maiorADV\eBaySDK\Account\Types\OptOutOfProgramRestResponse;
 
 class OptOutOfProgramRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class OptOutOfProgramRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\OptOutOfProgramRestResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Account\Types\OptOutOfProgramRestResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

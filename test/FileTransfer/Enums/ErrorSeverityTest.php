@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\FileTransfer\Enums;
+namespace maiorADV\eBaySDK\Test\FileTransfer\Enums;
 
-use DTS\eBaySDK\FileTransfer\Enums\ErrorSeverity;
+use maiorADV\eBaySDK\FileTransfer\Enums\ErrorSeverity;
 
 class ErrorSeverityTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ErrorSeverityTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Enums\ErrorSeverity', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Enums\ErrorSeverity', $this->obj);
     }
 }

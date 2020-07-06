@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Metadata\Types;
+namespace maiorADV\eBaySDK\Metadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicy[] $negotiatedPricePolicies
- * @property \DTS\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
+ * @property \maiorADV\eBaySDK\Metadata\Types\NegotiatedPricePolicy[] $negotiatedPricePolicies
+ * @property \maiorADV\eBaySDK\Metadata\Types\ErrorDetailV3[] $warnings
  */
-class NegotiatedPricePolicyResponse extends \DTS\eBaySDK\Types\BaseType
+class NegotiatedPricePolicyResponse extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'negotiatedPricePolicies' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\NegotiatedPricePolicy',
+            'type' => 'maiorADV\eBaySDK\Metadata\Types\NegotiatedPricePolicy',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'negotiatedPricePolicies'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Metadata\Types\ErrorDetailV3',
+            'type' => 'maiorADV\eBaySDK\Metadata\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

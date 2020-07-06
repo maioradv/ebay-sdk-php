@@ -8,31 +8,31 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace maiorADV\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\CategoryType[] $categoryTypes
+ * @property \maiorADV\eBaySDK\Account\Types\CategoryType[] $categoryTypes
  * @property string $description
  * @property boolean $extendedHolidayReturnsOffered
- * @property \DTS\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \maiorADV\eBaySDK\Account\Enums\MarketplaceIdEnum $marketplaceId
  * @property string $name
- * @property \DTS\eBaySDK\Account\Enums\RefundMethodEnum $refundMethod
+ * @property \maiorADV\eBaySDK\Account\Enums\RefundMethodEnum $refundMethod
  * @property string $restockingFeePercentage
  * @property string $returnInstructions
- * @property \DTS\eBaySDK\Account\Enums\ReturnMethodEnum $returnMethod
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $returnPeriod
+ * @property \maiorADV\eBaySDK\Account\Enums\ReturnMethodEnum $returnMethod
+ * @property \maiorADV\eBaySDK\Account\Types\TimeDuration $returnPeriod
  * @property boolean $returnsAccepted
- * @property \DTS\eBaySDK\Account\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
+ * @property \maiorADV\eBaySDK\Account\Enums\ReturnShippingCostPayerEnum $returnShippingCostPayer
  */
-class ReturnPolicyRequest extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyRequest extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryTypes' => [
-            'type' => 'DTS\eBaySDK\Account\Types\CategoryType',
+            'type' => 'maiorADV\eBaySDK\Account\Types\CategoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'categoryTypes'
@@ -86,7 +86,7 @@ class ReturnPolicyRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'returnMethod'
         ],
         'returnPeriod' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'maiorADV\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnPeriod'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace maiorADV\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\GetCategoryInfoResponseType;
+use maiorADV\eBaySDK\Shopping\Types\GetCategoryInfoResponseType;
 
 class GetCategoryInfoResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetCategoryInfoResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\GetCategoryInfoResponseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Shopping\Types\GetCategoryInfoResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Shopping\Types\AbstractResponseType', $this->obj);
     }
 }

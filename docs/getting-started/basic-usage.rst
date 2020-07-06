@@ -37,9 +37,9 @@ You can create a service object by passing an associative array of configuration
     // Use the Composer autoloader to include the SDK.
     require 'vendor/autoload.php';
 
-    $finding = new DTS\eBaySDK\Finding\Services\FindingService([
+    $finding = new maiorADV\eBaySDK\Finding\Services\FindingService([
         'apiVersion' => '1.13.0',
-        'globalId'   => DTS\eBaySDK\Constants\GlobalIds::US
+        'globalId'   => maiorADV\eBaySDK\Constants\GlobalIds::US
     ]);
 
 .. _sdk-class:
@@ -47,7 +47,7 @@ You can create a service object by passing an associative array of configuration
 Using the Sdk class
 -------------------
 
-The ``DTS\eBaySDK\Sdk`` class can be used as a factory for creating services. Configuration options passed to this class are shared with any services that it creates.
+The ``maiorADV\eBaySDK\Sdk`` class can be used as a factory for creating services. Configuration options passed to this class are shared with any services that it creates.
 
 .. code-block:: php
 
@@ -58,7 +58,7 @@ The ``DTS\eBaySDK\Sdk`` class can be used as a factory for creating services. Co
     ];
 
     // Create an SDK class used to share configuration across services.
-    $sdk = new DTS\eBaySDK\Sdk($config);
+    $sdk = new maiorADV\eBaySDK\Sdk($config);
 
     // Create two services that share the same configuration.
     $trading = $sdk->createTrading();
@@ -68,7 +68,7 @@ Configuration options that are in the root-level key-value pairs are shared acro
 
 .. code-block:: php
 
-    $sdk = new DTS\eBaySDK\Sdk([
+    $sdk = new maiorADV\eBaySDK\Sdk([
         'apiVersion' => '903',
         'Finding'    => [
             'apiVersion' => '1.13.0'
@@ -85,7 +85,7 @@ Service-specific configuration options are deep merged with those provided to th
 
 .. code-block:: php
 
-    $sdk = new DTS\eBaySDK\Sdk([
+    $sdk = new maiorADV\eBaySDK\Sdk([
         'apiVersion' => '903',
         'siteId'     => '3'
     ]);

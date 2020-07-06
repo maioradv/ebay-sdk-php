@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace maiorADV\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\RefundDetailType $estimatedRefund
- * @property \DTS\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType[] $itemizedOptionalRefund
+ * @property \maiorADV\eBaySDK\ReturnManagement\Types\RefundDetailType $estimatedRefund
+ * @property \maiorADV\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType[] $itemizedOptionalRefund
  */
-class EstimatedRefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class EstimatedRefundDetailType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'estimatedRefund' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\RefundDetailType',
+            'type' => 'maiorADV\eBaySDK\ReturnManagement\Types\RefundDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'estimatedRefund'
         ],
         'itemizedOptionalRefund' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType',
+            'type' => 'maiorADV\eBaySDK\ReturnManagement\Types\ItemizedRefundDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemizedOptionalRefund'

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\FileTransfer\Types;
+namespace maiorADV\eBaySDK\FileTransfer\Types;
 
 /**
  *
  * @property integer $errorId
  * @property string $domain
- * @property \DTS\eBaySDK\FileTransfer\Enums\ErrorSeverity $severity
- * @property \DTS\eBaySDK\FileTransfer\Enums\ErrorCategory $category
+ * @property \maiorADV\eBaySDK\FileTransfer\Enums\ErrorSeverity $severity
+ * @property \maiorADV\eBaySDK\FileTransfer\Enums\ErrorCategory $category
  * @property string $message
  * @property string $subdomain
  * @property string $exceptionId
- * @property \DTS\eBaySDK\FileTransfer\Types\ErrorParameter[] $parameter
+ * @property \maiorADV\eBaySDK\FileTransfer\Types\ErrorParameter[] $parameter
  */
-class ErrorData extends \DTS\eBaySDK\Types\BaseType
+class ErrorData extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -70,7 +70,7 @@ class ErrorData extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'exceptionId'
         ],
         'parameter' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\ErrorParameter',
+            'type' => 'maiorADV\eBaySDK\FileTransfer\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'parameter'

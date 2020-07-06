@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Browse\Types;
+namespace maiorADV\eBaySDK\Test\Browse\Types;
 
-use DTS\eBaySDK\Browse\Types\ShippingOptionSummary;
+use maiorADV\eBaySDK\Browse\Types\ShippingOptionSummary;
 
 class ShippingOptionSummaryTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ShippingOptionSummaryTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\ShippingOptionSummary', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Browse\Types\ShippingOptionSummary', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

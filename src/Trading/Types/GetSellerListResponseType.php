@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \maiorADV\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $HasMoreItems
- * @property \DTS\eBaySDK\Trading\Types\ItemArrayType $ItemArray
+ * @property \maiorADV\eBaySDK\Trading\Types\ItemArrayType $ItemArray
  * @property integer $ItemsPerPage
  * @property integer $PageNumber
  * @property integer $ReturnedItemCountActual
- * @property \DTS\eBaySDK\Trading\Types\UserType $Seller
+ * @property \maiorADV\eBaySDK\Trading\Types\UserType $Seller
  */
-class GetSellerListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellerListResponseType extends \maiorADV\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'
@@ -39,7 +39,7 @@ class GetSellerListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'elementName' => 'HasMoreItems'
         ],
         'ItemArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemArrayType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ItemArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemArray'
@@ -63,7 +63,7 @@ class GetSellerListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractRespo
             'elementName' => 'ReturnedItemCountActual'
         ],
         'Seller' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Seller'

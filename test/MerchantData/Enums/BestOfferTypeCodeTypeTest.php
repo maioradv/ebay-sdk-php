@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace maiorADV\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\BestOfferTypeCodeType;
+use maiorADV\eBaySDK\MerchantData\Enums\BestOfferTypeCodeType;
 
 class BestOfferTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class BestOfferTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\BestOfferTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\MerchantData\Enums\BestOfferTypeCodeType', $this->obj);
     }
 }

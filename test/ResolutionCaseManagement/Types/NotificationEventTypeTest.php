@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace maiorADV\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Types\NotificationEventType;
+use maiorADV\eBaySDK\ResolutionCaseManagement\Types\NotificationEventType;
 
 class NotificationEventTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class NotificationEventTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\NotificationEventType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\ResolutionCaseManagement\Types\NotificationEventType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

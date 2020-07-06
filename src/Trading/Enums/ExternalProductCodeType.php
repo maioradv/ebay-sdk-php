@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Enums;
+namespace maiorADV\eBaySDK\Trading\Enums;
 
 class ExternalProductCodeType
 {

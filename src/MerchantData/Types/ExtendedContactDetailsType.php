@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace maiorADV\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\ContactHoursDetailsType $ContactHoursDetails
+ * @property \maiorADV\eBaySDK\MerchantData\Types\ContactHoursDetailsType $ContactHoursDetails
  * @property boolean $ClassifiedAdContactByEmailEnabled
  */
-class ExtendedContactDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ExtendedContactDetailsType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ContactHoursDetails' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ContactHoursDetailsType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\ContactHoursDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ContactHoursDetails'

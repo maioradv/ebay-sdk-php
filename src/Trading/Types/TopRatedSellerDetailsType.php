@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\TopRatedProgramCodeType[] $TopRatedProgram
+ * @property \maiorADV\eBaySDK\Trading\Enums\TopRatedProgramCodeType[] $TopRatedProgram
  */
-class TopRatedSellerDetailsType extends \DTS\eBaySDK\Types\BaseType
+class TopRatedSellerDetailsType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

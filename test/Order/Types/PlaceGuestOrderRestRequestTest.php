@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Order\Types;
+namespace maiorADV\eBaySDK\Test\Order\Types;
 
-use DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest;
+use maiorADV\eBaySDK\Order\Types\PlaceGuestOrderRestRequest;
 
 class PlaceGuestOrderRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PlaceGuestOrderRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Order\Types\PlaceGuestOrderRestRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Order\Types\PlaceGuestOrderRestRequest', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

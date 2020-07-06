@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Metadata\Types;
+namespace maiorADV\eBaySDK\Test\Metadata\Types;
 
-use DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestResponse;
+use maiorADV\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestResponse;
 
 class GetPoliciesForListingStructuresRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetPoliciesForListingStructuresRestResponseTest extends \PHPUnit_Framework
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Metadata\Types\GetPoliciesForListingStructuresRestResponse', $this->obj);
     }
 
     public function testExtendsListingStructurePolicyResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\ListingStructurePolicyResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Metadata\Types\ListingStructurePolicyResponse', $this->obj);
     }
 }

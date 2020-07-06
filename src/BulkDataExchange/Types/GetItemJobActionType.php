@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace maiorADV\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property string $action
  * @property string $jobId
  */
-class GetItemJobActionType extends \DTS\eBaySDK\Types\BaseType
+class GetItemJobActionType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Metadata\Enums;
+namespace maiorADV\eBaySDK\Metadata\Enums;
 
 class CompatibilityTypeEnum
 {

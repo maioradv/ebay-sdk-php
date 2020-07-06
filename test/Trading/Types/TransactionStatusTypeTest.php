@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace maiorADV\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\TransactionStatusType;
+use maiorADV\eBaySDK\Trading\Types\TransactionStatusType;
 
 class TransactionStatusTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class TransactionStatusTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\TransactionStatusType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\TransactionStatusType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

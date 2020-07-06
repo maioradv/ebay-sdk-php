@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace maiorADV\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $href
  * @property integer $limit
- * @property \DTS\eBaySDK\Marketing\Types\ListingDetail[] $listings
+ * @property \maiorADV\eBaySDK\Marketing\Types\ListingDetail[] $listings
  * @property string $next
  * @property integer $offset
  * @property string $prev
  * @property integer $total
  */
-class ItemsPagedCollection extends \DTS\eBaySDK\Types\BaseType
+class ItemsPagedCollection extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class ItemsPagedCollection extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'limit'
         ],
         'listings' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\ListingDetail',
+            'type' => 'maiorADV\eBaySDK\Marketing\Types\ListingDetail',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'listings'

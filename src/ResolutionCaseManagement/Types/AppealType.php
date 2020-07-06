@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace maiorADV\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\AppealDecisionType $decision
+ * @property \maiorADV\eBaySDK\ResolutionCaseManagement\Enums\AppealDecisionType $decision
  * @property string $decisionReason
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType $decisionReasonDetail
+ * @property \maiorADV\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType $decisionReasonDetail
  * @property \DateTime $decisionDate
  * @property \DateTime $creationDate
  * @property string $id
  */
-class AppealType extends \DTS\eBaySDK\Types\BaseType
+class AppealType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -38,7 +38,7 @@ class AppealType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'decisionReason'
         ],
         'decisionReasonDetail' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType',
+            'type' => 'maiorADV\eBaySDK\ResolutionCaseManagement\Types\DecisionReasonDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'decisionReasonDetail'

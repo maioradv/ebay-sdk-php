@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace maiorADV\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\AppealStatusEnum;
+use maiorADV\eBaySDK\PostOrder\Enums\AppealStatusEnum;
 
 class AppealStatusEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AppealStatusEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\AppealStatusEnum', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\PostOrder\Enums\AppealStatusEnum', $this->obj);
     }
 }

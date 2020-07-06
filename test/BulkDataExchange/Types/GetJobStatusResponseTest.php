@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace maiorADV\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusResponse;
+use maiorADV\eBaySDK\BulkDataExchange\Types\GetJobStatusResponse;
 
 class GetJobStatusResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetJobStatusResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\GetJobStatusResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BulkDataExchange\Types\GetJobStatusResponse', $this->obj);
     }
 
     public function testExtendsBaseServiceResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BulkDataExchange\Types\BaseServiceResponse', $this->obj);
     }
 }

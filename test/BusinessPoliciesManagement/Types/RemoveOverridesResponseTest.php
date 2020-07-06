@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace maiorADV\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse;
+use maiorADV\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse;
 
 class RemoveOverridesResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class RemoveOverridesResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\RemoveOverridesResponse', $this->obj);
     }
 
     public function testExtendsBaseResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
     }
 }

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace maiorADV\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property string $shippedDate
  * @property string $carrierUsed
  */
-class ProvideShippingInfoOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class ProvideShippingInfoOptionType extends \maiorADV\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

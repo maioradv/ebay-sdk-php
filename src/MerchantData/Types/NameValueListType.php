@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace maiorADV\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $Name
  * @property string[] $Value
- * @property \DTS\eBaySDK\MerchantData\Enums\ItemSpecificSourceCodeType $Source
+ * @property \maiorADV\eBaySDK\MerchantData\Enums\ItemSpecificSourceCodeType $Source
  */
-class NameValueListType extends \DTS\eBaySDK\Types\BaseType
+class NameValueListType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
+namespace maiorADV\eBaySDK\Test\RelatedItemsManagement\Types;
 
-use DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest;
+use maiorADV\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest;
 
 class FindBundlesRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FindBundlesRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\RelatedItemsManagement\Types\FindBundlesRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\RelatedItemsManagement\Types\BaseRequest', $this->obj);
     }
 }

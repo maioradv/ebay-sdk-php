@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\HalfFinding\Enums;
+namespace maiorADV\eBaySDK\Test\HalfFinding\Enums;
 
-use DTS\eBaySDK\HalfFinding\Enums\RentalDurationType;
+use maiorADV\eBaySDK\HalfFinding\Enums\RentalDurationType;
 
 class RentalDurationTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class RentalDurationTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\HalfFinding\Enums\RentalDurationType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\HalfFinding\Enums\RentalDurationType', $this->obj);
     }
 }

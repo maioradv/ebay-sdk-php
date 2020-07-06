@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AddressAttributeCodeType $type
+ * @property \maiorADV\eBaySDK\Trading\Enums\AddressAttributeCodeType $type
  */
-class AddressAttributeType extends \DTS\eBaySDK\Types\StringType
+class AddressAttributeType extends \maiorADV\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

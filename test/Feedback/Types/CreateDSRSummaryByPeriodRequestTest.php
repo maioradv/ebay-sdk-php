@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Feedback\Types;
+namespace maiorADV\eBaySDK\Test\Feedback\Types;
 
-use DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest;
+use maiorADV\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest;
 
 class CreateDSRSummaryByPeriodRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CreateDSRSummaryByPeriodRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest', $this->obj);
     }
 
     public function testExtendsBaseServiceRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feedback\Types\BaseServiceRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Feedback\Types\BaseServiceRequest', $this->obj);
     }
 }

@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace maiorADV\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Types\BooleanType;
+use maiorADV\eBaySDK\Types\BooleanType;
 
 class BooleanTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,12 +14,12 @@ class BooleanTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BooleanType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BooleanType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 
     public function testHasValueProperty()

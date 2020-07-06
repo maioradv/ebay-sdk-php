@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $ruleId
  * @property string $ruleName
- * @property \DTS\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum $ruleTemplate
+ * @property \maiorADV\eBaySDK\PostOrder\Enums\DispositionRuleTemplateTypeEnum $ruleTemplate
  */
-class DispositionRuleDetailType extends \DTS\eBaySDK\Types\BaseType
+class DispositionRuleDetailType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

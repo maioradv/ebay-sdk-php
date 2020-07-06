@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace maiorADV\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile;
+use maiorADV\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile;
 
 class PaymentProfileTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PaymentProfileTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile', $this->obj);
     }
 
     public function testExtendsSellerProfile()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfile', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\SellerProfile', $this->obj);
     }
 }

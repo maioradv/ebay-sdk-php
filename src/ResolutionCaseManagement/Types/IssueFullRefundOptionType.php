@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace maiorADV\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
  * @property integer $daysToRefundBuyer
  */
-class IssueFullRefundOptionType extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
+class IssueFullRefundOptionType extends \maiorADV\eBaySDK\ResolutionCaseManagement\Types\BaseActivityOptionType
 {
     /**
      * @var array Properties belonging to objects of this class.

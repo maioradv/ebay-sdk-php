@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace maiorADV\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\BestOfferCounterEnabledDefinitionType;
+use maiorADV\eBaySDK\Trading\Types\BestOfferCounterEnabledDefinitionType;
 
 class BestOfferCounterEnabledDefinitionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BestOfferCounterEnabledDefinitionTypeTest extends \PHPUnit_Framework_TestC
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BestOfferCounterEnabledDefinitionType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\BestOfferCounterEnabledDefinitionType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

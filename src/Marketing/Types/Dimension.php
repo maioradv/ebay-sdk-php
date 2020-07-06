@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace maiorADV\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string[] $annotationKeys
  * @property string $dimensionKey
  */
-class Dimension extends \DTS\eBaySDK\Types\BaseType
+class Dimension extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

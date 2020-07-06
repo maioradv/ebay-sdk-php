@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace maiorADV\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  */
-class AbortJobResponse extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
+class AbortJobResponse extends \maiorADV\eBaySDK\BulkDataExchange\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

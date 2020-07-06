@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace maiorADV\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductSubmission $productSubmission
- * @property \DTS\eBaySDK\Product\Types\ProductSubmissionStatus $status
+ * @property \maiorADV\eBaySDK\Product\Types\ProductSubmission $productSubmission
+ * @property \maiorADV\eBaySDK\Product\Types\ProductSubmissionStatus $status
  */
-class ProductSubmissionResult extends \DTS\eBaySDK\Product\Types\BaseServiceResponse
+class ProductSubmissionResult extends \maiorADV\eBaySDK\Product\Types\BaseServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productSubmission' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmission',
+            'type' => 'maiorADV\eBaySDK\Product\Types\ProductSubmission',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productSubmission'
         ],
         'status' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionStatus',
+            'type' => 'maiorADV\eBaySDK\Product\Types\ProductSubmissionStatus',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'status'

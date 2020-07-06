@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace maiorADV\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use DTS\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimateMetaInfo;
+use maiorADV\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimateMetaInfo;
 
 class DeliveryEstimateMetaInfoTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DeliveryEstimateMetaInfoTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimateMetaInfo', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\DeliveryEstimateMetaInfo', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

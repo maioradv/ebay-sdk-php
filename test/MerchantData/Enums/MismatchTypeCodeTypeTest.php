@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace maiorADV\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\MismatchTypeCodeType;
+use maiorADV\eBaySDK\MerchantData\Enums\MismatchTypeCodeType;
 
 class MismatchTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class MismatchTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\MismatchTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\MerchantData\Enums\MismatchTypeCodeType', $this->obj);
     }
 }

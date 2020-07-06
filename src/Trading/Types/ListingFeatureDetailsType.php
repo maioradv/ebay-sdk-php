@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\BoldTitleCodeType $BoldTitle
- * @property \DTS\eBaySDK\Trading\Enums\BorderCodeType $Border
- * @property \DTS\eBaySDK\Trading\Enums\HighlightCodeType $Highlight
- * @property \DTS\eBaySDK\Trading\Enums\GiftIconCodeType $GiftIcon
- * @property \DTS\eBaySDK\Trading\Enums\HomePageFeaturedCodeType $HomePageFeatured
- * @property \DTS\eBaySDK\Trading\Enums\FeaturedFirstCodeType $FeaturedFirst
- * @property \DTS\eBaySDK\Trading\Enums\FeaturedPlusCodeType $FeaturedPlus
- * @property \DTS\eBaySDK\Trading\Enums\ProPackCodeType $ProPack
+ * @property \maiorADV\eBaySDK\Trading\Enums\BoldTitleCodeType $BoldTitle
+ * @property \maiorADV\eBaySDK\Trading\Enums\BorderCodeType $Border
+ * @property \maiorADV\eBaySDK\Trading\Enums\HighlightCodeType $Highlight
+ * @property \maiorADV\eBaySDK\Trading\Enums\GiftIconCodeType $GiftIcon
+ * @property \maiorADV\eBaySDK\Trading\Enums\HomePageFeaturedCodeType $HomePageFeatured
+ * @property \maiorADV\eBaySDK\Trading\Enums\FeaturedFirstCodeType $FeaturedFirst
+ * @property \maiorADV\eBaySDK\Trading\Enums\FeaturedPlusCodeType $FeaturedPlus
+ * @property \maiorADV\eBaySDK\Trading\Enums\ProPackCodeType $ProPack
  * @property string $DetailVersion
  * @property \DateTime $UpdateTime
  */
-class ListingFeatureDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ListingFeatureDetailsType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

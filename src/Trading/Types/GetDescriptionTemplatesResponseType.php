@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\DescriptionTemplateType[] $DescriptionTemplate
+ * @property \maiorADV\eBaySDK\Trading\Types\DescriptionTemplateType[] $DescriptionTemplate
  * @property integer $LayoutTotal
  * @property integer[] $ObsoleteLayoutID
  * @property integer[] $ObsoleteThemeID
- * @property \DTS\eBaySDK\Trading\Types\ThemeGroupType[] $ThemeGroup
+ * @property \maiorADV\eBaySDK\Trading\Types\ThemeGroupType[] $ThemeGroup
  * @property integer $ThemeTotal
  */
-class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetDescriptionTemplatesResponseType extends \maiorADV\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'DescriptionTemplate' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DescriptionTemplateType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\DescriptionTemplateType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DescriptionTemplate'
@@ -50,7 +50,7 @@ class GetDescriptionTemplatesResponseType extends \DTS\eBaySDK\Trading\Types\Abs
             'elementName' => 'ObsoleteThemeID'
         ],
         'ThemeGroup' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ThemeGroupType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ThemeGroupType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ThemeGroup'

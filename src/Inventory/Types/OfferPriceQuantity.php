@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace maiorADV\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property integer $availableQuantity
  * @property string $offerId
- * @property \DTS\eBaySDK\Inventory\Types\Amount $price
+ * @property \maiorADV\eBaySDK\Inventory\Types\Amount $price
  */
-class OfferPriceQuantity extends \DTS\eBaySDK\Types\BaseType
+class OfferPriceQuantity extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class OfferPriceQuantity extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'offerId'
         ],
         'price' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Amount',
+            'type' => 'maiorADV\eBaySDK\Inventory\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'price'

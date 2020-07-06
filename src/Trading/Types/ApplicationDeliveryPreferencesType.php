@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ApplicationURL
- * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $ApplicationEnable
+ * @property \maiorADV\eBaySDK\Trading\Enums\EnableCodeType $ApplicationEnable
  * @property string $AlertEmail
- * @property \DTS\eBaySDK\Trading\Enums\EnableCodeType $AlertEnable
- * @property \DTS\eBaySDK\Trading\Enums\DeviceTypeCodeType $DeviceType
+ * @property \maiorADV\eBaySDK\Trading\Enums\EnableCodeType $AlertEnable
+ * @property \maiorADV\eBaySDK\Trading\Enums\DeviceTypeCodeType $DeviceType
  * @property string $PayloadVersion
- * @property \DTS\eBaySDK\Trading\Types\DeliveryURLDetailType[] $DeliveryURLDetails
+ * @property \maiorADV\eBaySDK\Trading\Types\DeliveryURLDetailType[] $DeliveryURLDetails
  */
-class ApplicationDeliveryPreferencesType extends \DTS\eBaySDK\Types\BaseType
+class ApplicationDeliveryPreferencesType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -63,7 +63,7 @@ class ApplicationDeliveryPreferencesType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'PayloadVersion'
         ],
         'DeliveryURLDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DeliveryURLDetailType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\DeliveryURLDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DeliveryURLDetails'

@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace maiorADV\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $shippingCarrierCode
  * @property string $shippingServiceCode
- * @property \DTS\eBaySDK\Fulfillment\Types\Contact $shipTo
+ * @property \maiorADV\eBaySDK\Fulfillment\Types\Contact $shipTo
  * @property string $shipToReferenceId
  */
-class ShippingStep extends \DTS\eBaySDK\Types\BaseType
+class ShippingStep extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -36,7 +36,7 @@ class ShippingStep extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'shippingServiceCode'
         ],
         'shipTo' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Contact',
+            'type' => 'maiorADV\eBaySDK\Fulfillment\Types\Contact',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shipTo'

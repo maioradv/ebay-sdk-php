@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Marketing\Enums;
+namespace maiorADV\eBaySDK\Test\Marketing\Enums;
 
-use DTS\eBaySDK\Marketing\Enums\TaskStatusEnum;
+use maiorADV\eBaySDK\Marketing\Enums\TaskStatusEnum;
 
 class TaskStatusEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class TaskStatusEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Marketing\Enums\TaskStatusEnum', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Marketing\Enums\TaskStatusEnum', $this->obj);
     }
 }

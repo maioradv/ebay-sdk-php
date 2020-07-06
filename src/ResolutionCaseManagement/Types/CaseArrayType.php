@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace maiorADV\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType[] $caseSummary
+ * @property \maiorADV\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType[] $caseSummary
  */
-class CaseArrayType extends \DTS\eBaySDK\Types\BaseType
+class CaseArrayType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseSummary' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType',
+            'type' => 'maiorADV\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'caseSummary'

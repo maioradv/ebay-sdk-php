@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace maiorADV\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType;
+use maiorADV\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType;
 
 class SellingManagerProductInventoryStatusTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SellingManagerProductInventoryStatusTypeTest extends \PHPUnit_Framework_Te
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\SellingManagerProductInventoryStatusType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

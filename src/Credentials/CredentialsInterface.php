@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK\Credentials;
+namespace maiorADV\eBaySDK\Credentials;
 
 /**
  * Provides access to the API credentials used for accessing the eBay services.

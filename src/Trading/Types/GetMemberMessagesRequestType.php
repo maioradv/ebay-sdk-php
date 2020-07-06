@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
- * @property \DTS\eBaySDK\Trading\Enums\MessageTypeCodeType $MailMessageType
- * @property \DTS\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $MessageStatus
+ * @property \maiorADV\eBaySDK\Trading\Enums\MessageTypeCodeType $MailMessageType
+ * @property \maiorADV\eBaySDK\Trading\Enums\MessageStatusTypeCodeType $MessageStatus
  * @property boolean $DisplayToPublic
  * @property \DateTime $StartCreationTime
  * @property \DateTime $EndCreationTime
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \maiorADV\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property string $MemberMessageID
  * @property string $SenderID
  */
-class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetMemberMessagesRequestType extends \maiorADV\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -65,7 +65,7 @@ class GetMemberMessagesRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRe
             'elementName' => 'EndCreationTime'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

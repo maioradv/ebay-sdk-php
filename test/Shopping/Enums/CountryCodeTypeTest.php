@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Enums;
+namespace maiorADV\eBaySDK\Test\Shopping\Enums;
 
-use DTS\eBaySDK\Shopping\Enums\CountryCodeType;
+use maiorADV\eBaySDK\Shopping\Enums\CountryCodeType;
 
 class CountryCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CountryCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\CountryCodeType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Shopping\Enums\CountryCodeType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\FileTransfer\Enums;
+namespace maiorADV\eBaySDK\Test\FileTransfer\Enums;
 
-use DTS\eBaySDK\FileTransfer\Enums\AckValue;
+use maiorADV\eBaySDK\FileTransfer\Enums\AckValue;
 
 class AckValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AckValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Enums\AckValue', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Enums\AckValue', $this->obj);
     }
 }

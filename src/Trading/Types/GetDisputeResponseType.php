@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\DisputeType $Dispute
+ * @property \maiorADV\eBaySDK\Trading\Types\DisputeType $Dispute
  */
-class GetDisputeResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetDisputeResponseType extends \maiorADV\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Dispute' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DisputeType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\DisputeType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Dispute'

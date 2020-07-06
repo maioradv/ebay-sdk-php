@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType[] $Site
+ * @property \maiorADV\eBaySDK\Trading\Enums\SiteCodeType[] $Site
  */
-class RecoupmentPolicyConsentType extends \DTS\eBaySDK\Types\BaseType
+class RecoupmentPolicyConsentType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

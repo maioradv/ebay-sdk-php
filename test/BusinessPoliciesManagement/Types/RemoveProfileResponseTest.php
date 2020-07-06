@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace maiorADV\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileResponse;
+use maiorADV\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileResponse;
 
 class RemoveProfileResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class RemoveProfileResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\RemoveProfileResponse', $this->obj);
     }
 
     public function testExtendsBaseResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
     }
 }

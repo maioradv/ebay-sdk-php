@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CancelDetail $cancelDetail
+ * @property \maiorADV\eBaySDK\PostOrder\Types\CancelDetail $cancelDetail
  */
-class GetCancelDetailResponse extends \DTS\eBaySDK\Types\BaseType
+class GetCancelDetailResponse extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'cancelDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CancelDetail',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\CancelDetail',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cancelDetail'

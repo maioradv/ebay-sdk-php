@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Types;
+namespace maiorADV\eBaySDK\Test\Fulfillment\Types;
 
-use DTS\eBaySDK\Fulfillment\Types\FilterField;
+use maiorADV\eBaySDK\Fulfillment\Types\FilterField;
 
 class FilterFieldTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class FilterFieldTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\FilterField', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Fulfillment\Types\FilterField', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

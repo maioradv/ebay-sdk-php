@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace maiorADV\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRequest[] $requests
+ * @property \maiorADV\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRequest[] $requests
  */
-class BulkDeleteAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
+class BulkDeleteAdsByInventoryReferenceRequest extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'requests' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRequest',
+            'type' => 'maiorADV\eBaySDK\Marketing\Types\DeleteAdsByInventoryReferenceRequest',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'requests'

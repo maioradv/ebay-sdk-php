@@ -1,9 +1,9 @@
 <?php
-namespace DTS\eBaySDK\Test\FileTransfer\Services;
+namespace maiorADV\eBaySDK\Test\FileTransfer\Services;
 
-use DTS\eBaySDK\FileTransfer\Services\FileTransferService;
-use DTS\eBaySDK\FileTransfer\Types;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use maiorADV\eBaySDK\FileTransfer\Services\FileTransferService;
+use maiorADV\eBaySDK\FileTransfer\Types;
+use maiorADV\eBaySDK\Test\Mocks\HttpHandler;
 
 class AttachmentTest extends \PHPUnit_Framework_TestCase
 {
@@ -28,9 +28,9 @@ class AttachmentTest extends \PHPUnit_Framework_TestCase
         $r->attachment('123ABC');
         $this->assertEquals(null, $r->fileAttachment);
         $s->uploadFile($r);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\FileAttachment', $r->fileAttachment);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\Data', $r->fileAttachment->Data);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\XopInclude', $r->fileAttachment->Data->xopInclude);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\FileAttachment', $r->fileAttachment);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\Data', $r->fileAttachment->Data);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\XopInclude', $r->fileAttachment->Data->xopInclude);
         $this->assertEquals('cid:attachment.bin@devbay.net', $r->fileAttachment->Data->xopInclude->href);
         $this->assertEquals(6, $r->fileAttachment->Size);
 
@@ -41,9 +41,9 @@ class AttachmentTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(null, $r->fileAttachment->Data);
         $this->assertEquals(null, $r->fileAttachment->Size);
         $s->uploadFile($r);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\FileAttachment', $r->fileAttachment);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\Data', $r->fileAttachment->Data);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\XopInclude', $r->fileAttachment->Data->xopInclude);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\FileAttachment', $r->fileAttachment);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\Data', $r->fileAttachment->Data);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\XopInclude', $r->fileAttachment->Data->xopInclude);
         $this->assertEquals('cid:attachment.bin@devbay.net', $r->fileAttachment->Data->xopInclude->href);
         $this->assertEquals(6, $r->fileAttachment->Size);
 
@@ -56,9 +56,9 @@ class AttachmentTest extends \PHPUnit_Framework_TestCase
         $r->fileAttachment->Data->xopInclude->href = '123';
         $r->fileAttachment->Size = 8;
         $s->uploadFile($r);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\FileAttachment', $r->fileAttachment);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\Data', $r->fileAttachment->Data);
-        $this->assertInstanceOf('\DTS\eBaySDK\FileTransfer\Types\XopInclude', $r->fileAttachment->Data->xopInclude);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\FileAttachment', $r->fileAttachment);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\Data', $r->fileAttachment->Data);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\FileTransfer\Types\XopInclude', $r->fileAttachment->Data->xopInclude);
         $this->assertEquals('123', $r->fileAttachment->Data->xopInclude->href);
         $this->assertEquals(8, $r->fileAttachment->Size);
     }

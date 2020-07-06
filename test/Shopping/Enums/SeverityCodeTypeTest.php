@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Enums;
+namespace maiorADV\eBaySDK\Test\Shopping\Enums;
 
-use DTS\eBaySDK\Shopping\Enums\SeverityCodeType;
+use maiorADV\eBaySDK\Shopping\Enums\SeverityCodeType;
 
 class SeverityCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SeverityCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Enums\SeverityCodeType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Shopping\Enums\SeverityCodeType', $this->obj);
     }
 }

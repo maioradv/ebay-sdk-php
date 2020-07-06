@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace maiorADV\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
- * @property \DTS\eBaySDK\Account\Types\Amount $returnedInventoryValue
+ * @property \maiorADV\eBaySDK\Account\Types\LookbackPeriod $lookbackPeriod
+ * @property \maiorADV\eBaySDK\Account\Types\Amount $returnedInventoryValue
  * @property integer $returnedQuantity
  */
-class ReturnSnapshot extends \DTS\eBaySDK\Types\BaseType
+class ReturnSnapshot extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'lookbackPeriod' => [
-            'type' => 'DTS\eBaySDK\Account\Types\LookbackPeriod',
+            'type' => 'maiorADV\eBaySDK\Account\Types\LookbackPeriod',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'lookbackPeriod'
         ],
         'returnedInventoryValue' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'maiorADV\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnedInventoryValue'

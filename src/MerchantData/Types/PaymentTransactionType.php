@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace maiorADV\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $PaymentStatus
- * @property \DTS\eBaySDK\MerchantData\Types\UserIdentityType $Payer
- * @property \DTS\eBaySDK\MerchantData\Types\UserIdentityType $Payee
+ * @property \maiorADV\eBaySDK\MerchantData\Enums\PaymentTransactionStatusCodeType $PaymentStatus
+ * @property \maiorADV\eBaySDK\MerchantData\Types\UserIdentityType $Payer
+ * @property \maiorADV\eBaySDK\MerchantData\Types\UserIdentityType $Payee
  * @property \DateTime $PaymentTime
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $PaymentAmount
- * @property \DTS\eBaySDK\MerchantData\Types\TransactionReferenceType $ReferenceID
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $FeeOrCreditAmount
- * @property \DTS\eBaySDK\MerchantData\Types\TransactionReferenceType[] $PaymentReferenceID
+ * @property \maiorADV\eBaySDK\MerchantData\Types\AmountType $PaymentAmount
+ * @property \maiorADV\eBaySDK\MerchantData\Types\TransactionReferenceType $ReferenceID
+ * @property \maiorADV\eBaySDK\MerchantData\Types\AmountType $FeeOrCreditAmount
+ * @property \maiorADV\eBaySDK\MerchantData\Types\TransactionReferenceType[] $PaymentReferenceID
  */
-class PaymentTransactionType extends \DTS\eBaySDK\Types\BaseType
+class PaymentTransactionType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,13 +34,13 @@ class PaymentTransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'PaymentStatus'
         ],
         'Payer' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\UserIdentityType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Payer'
         ],
         'Payee' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UserIdentityType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\UserIdentityType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Payee'
@@ -52,25 +52,25 @@ class PaymentTransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'PaymentTime'
         ],
         'PaymentAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaymentAmount'
         ],
         'ReferenceID' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\TransactionReferenceType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReferenceID'
         ],
         'FeeOrCreditAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeOrCreditAmount'
         ],
         'PaymentReferenceID' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\TransactionReferenceType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\TransactionReferenceType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PaymentReferenceID'

@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
- * @property \DTS\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
- * @property \DTS\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile
+ * @property \maiorADV\eBaySDK\Trading\Types\SellerShippingProfileType $SellerShippingProfile
+ * @property \maiorADV\eBaySDK\Trading\Types\SellerReturnProfileType $SellerReturnProfile
+ * @property \maiorADV\eBaySDK\Trading\Types\SellerPaymentProfileType $SellerPaymentProfile
  */
-class SellerProfilesType extends \DTS\eBaySDK\Types\BaseType
+class SellerProfilesType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SellerShippingProfile' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerShippingProfileType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SellerShippingProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerShippingProfile'
         ],
         'SellerReturnProfile' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerReturnProfileType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SellerReturnProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerReturnProfile'
         ],
         'SellerPaymentProfile' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerPaymentProfileType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SellerPaymentProfileType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerPaymentProfile'

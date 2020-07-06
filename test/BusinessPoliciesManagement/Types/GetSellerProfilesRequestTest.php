@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace maiorADV\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest;
+use maiorADV\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest;
 
 class GetSellerProfilesRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetSellerProfilesRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest', $this->obj);
     }
 
     public function testExtendsBaseRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest', $this->obj);
     }
 }

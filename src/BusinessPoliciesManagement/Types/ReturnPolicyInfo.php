@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace maiorADV\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $restockingFeeValue
  * @property string $holidayReturns
  */
-class ReturnPolicyInfo extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyInfo extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

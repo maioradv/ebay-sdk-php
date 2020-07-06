@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace maiorADV\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\GetProductSearchNamesResponse;
+use maiorADV\eBaySDK\ProductMetadata\Types\GetProductSearchNamesResponse;
 
 class GetProductSearchNamesResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetProductSearchNamesResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GetProductSearchNamesResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\ProductMetadata\Types\GetProductSearchNamesResponse', $this->obj);
     }
 
     public function testExtendsBaseServiceResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\BaseServiceResponse', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\ProductMetadata\Types\BaseServiceResponse', $this->obj);
     }
 }

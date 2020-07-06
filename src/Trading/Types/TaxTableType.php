@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\TaxJurisdictionType[] $TaxJurisdiction
+ * @property \maiorADV\eBaySDK\Trading\Types\TaxJurisdictionType[] $TaxJurisdiction
  */
-class TaxTableType extends \DTS\eBaySDK\Types\BaseType
+class TaxTableType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'TaxJurisdiction' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TaxJurisdictionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\TaxJurisdictionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'TaxJurisdiction'

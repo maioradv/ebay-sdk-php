@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
@@ -27,11 +27,11 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $PopularityIndex
  * @property string $EIN
  * @property string $NonProfitSecondName
- * @property \DTS\eBaySDK\Trading\Types\NonProfitAddressType[] $NonProfitAddress
- * @property \DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType[] $NonProfitSocialAddress
+ * @property \maiorADV\eBaySDK\Trading\Types\NonProfitAddressType[] $NonProfitAddress
+ * @property \maiorADV\eBaySDK\Trading\Types\NonProfitSocialAddressType[] $NonProfitSocialAddress
  * @property string $id
  */
-class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
+class CharityInfoType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -128,13 +128,13 @@ class CharityInfoType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'NonProfitSecondName'
         ],
         'NonProfitAddress' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NonProfitAddressType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\NonProfitAddressType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NonProfitAddress'
         ],
         'NonProfitSocialAddress' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NonProfitSocialAddressType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\NonProfitSocialAddressType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'NonProfitSocialAddress'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Product\Enums;
+namespace maiorADV\eBaySDK\Test\Product\Enums;
 
-use DTS\eBaySDK\Product\Enums\SortPriority;
+use maiorADV\eBaySDK\Product\Enums\SortPriority;
 
 class SortPriorityTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SortPriorityTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Enums\SortPriority', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Product\Enums\SortPriority', $this->obj);
     }
 }

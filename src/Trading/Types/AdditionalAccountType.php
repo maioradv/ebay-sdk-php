@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AmountType $Balance
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property \maiorADV\eBaySDK\Trading\Types\AmountType $Balance
+ * @property \maiorADV\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property string $AccountCode
  */
-class AdditionalAccountType extends \DTS\eBaySDK\Types\BaseType
+class AdditionalAccountType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Balance' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Balance'

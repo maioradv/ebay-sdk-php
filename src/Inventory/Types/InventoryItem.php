@@ -8,26 +8,26 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace maiorADV\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\Availability $availability
- * @property \DTS\eBaySDK\Inventory\Enums\ConditionEnum $condition
+ * @property \maiorADV\eBaySDK\Inventory\Types\Availability $availability
+ * @property \maiorADV\eBaySDK\Inventory\Enums\ConditionEnum $condition
  * @property string $conditionDescription
- * @property \DTS\eBaySDK\Inventory\Types\PackageWeightAndSize $packageWeightAndSize
- * @property \DTS\eBaySDK\Inventory\Types\Product $product
+ * @property \maiorADV\eBaySDK\Inventory\Types\PackageWeightAndSize $packageWeightAndSize
+ * @property \maiorADV\eBaySDK\Inventory\Types\Product $product
  * @property string $sku
  * @property string[] $groupIds
  */
-class InventoryItem extends \DTS\eBaySDK\Types\BaseType
+class InventoryItem extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'availability' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Availability',
+            'type' => 'maiorADV\eBaySDK\Inventory\Types\Availability',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'availability'
@@ -45,13 +45,13 @@ class InventoryItem extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'conditionDescription'
         ],
         'packageWeightAndSize' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\PackageWeightAndSize',
+            'type' => 'maiorADV\eBaySDK\Inventory\Types\PackageWeightAndSize',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'packageWeightAndSize'
         ],
         'product' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\Product',
+            'type' => 'maiorADV\eBaySDK\Inventory\Types\Product',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'product'

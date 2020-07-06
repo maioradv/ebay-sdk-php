@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SocialAddressTypeCodeType $SocialAddressType
+ * @property \maiorADV\eBaySDK\Trading\Enums\SocialAddressTypeCodeType $SocialAddressType
  * @property string $SocialAddressId
  */
-class NonProfitSocialAddressType extends \DTS\eBaySDK\Types\BaseType
+class NonProfitSocialAddressType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace maiorADV\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType[] $returns
- * @property \DTS\eBaySDK\ReturnManagement\Types\PaginationOutput $paginationOutput
+ * @property \maiorADV\eBaySDK\ReturnManagement\Types\ReturnSummaryType[] $returns
+ * @property \maiorADV\eBaySDK\ReturnManagement\Types\PaginationOutput $paginationOutput
  */
-class GetUserReturnsResponse extends \DTS\eBaySDK\ReturnManagement\Types\BaseResponse
+class GetUserReturnsResponse extends \maiorADV\eBaySDK\ReturnManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'returns' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
+            'type' => 'maiorADV\eBaySDK\ReturnManagement\Types\ReturnSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'returns'
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\PaginationOutput',
+            'type' => 'maiorADV\eBaySDK\ReturnManagement\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

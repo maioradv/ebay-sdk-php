@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $SMSPhone
- * @property \DTS\eBaySDK\Trading\Enums\SMSSubscriptionUserStatusCodeType $UserStatus
- * @property \DTS\eBaySDK\Trading\Enums\WirelessCarrierIDCodeType $CarrierID
- * @property \DTS\eBaySDK\Trading\Enums\SMSSubscriptionErrorCodeCodeType $ErrorCode
+ * @property \maiorADV\eBaySDK\Trading\Enums\SMSSubscriptionUserStatusCodeType $UserStatus
+ * @property \maiorADV\eBaySDK\Trading\Enums\WirelessCarrierIDCodeType $CarrierID
+ * @property \maiorADV\eBaySDK\Trading\Enums\SMSSubscriptionErrorCodeCodeType $ErrorCode
  * @property string $ItemToUnsubscribe
  */
-class SMSSubscriptionType extends \DTS\eBaySDK\Types\BaseType
+class SMSSubscriptionType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

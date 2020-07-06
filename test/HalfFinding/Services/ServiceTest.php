@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\HalfFinding\Services;
+namespace maiorADV\eBaySDK\Test\HalfFinding\Services;
 
-use DTS\eBaySDK\HalfFinding\Services\HalfFindingBaseService;
-use DTS\eBaySDK\HalfFinding\Services\HalfFindingService;
-use DTS\eBaySDK\Test\HalfFinding\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use maiorADV\eBaySDK\HalfFinding\Services\HalfFindingBaseService;
+use maiorADV\eBaySDK\HalfFinding\Services\HalfFindingService;
+use maiorADV\eBaySDK\Test\HalfFinding\Mocks\Service;
+use maiorADV\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

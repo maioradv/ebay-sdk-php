@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace maiorADV\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\SellingManagerEmailTypeCodeType;
+use maiorADV\eBaySDK\Trading\Enums\SellingManagerEmailTypeCodeType;
 
 class SellingManagerEmailTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellingManagerEmailTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerEmailTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Enums\SellingManagerEmailTypeCodeType', $this->obj);
     }
 }

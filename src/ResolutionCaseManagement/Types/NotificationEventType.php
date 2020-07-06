@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace maiorADV\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\NotificationEventNameType $NotificationEventName
+ * @property \maiorADV\eBaySDK\ResolutionCaseManagement\Enums\NotificationEventNameType $NotificationEventName
  * @property string $RecipientUserID
  * @property string $ExternalUserData
  * @property string $CaseId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseType $CaseType
+ * @property \maiorADV\eBaySDK\ResolutionCaseManagement\Enums\CaseType $CaseType
  * @property string $ItemId
  * @property string $TransactionId
  * @property \DateTime $CreationDate
  * @property string $OtherPartyId
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType $OtherPartyRole
+ * @property \maiorADV\eBaySDK\ResolutionCaseManagement\Enums\CaseUserRoleType $OtherPartyRole
  * @property string $CaseStatus
  * @property string $CaseGlobalId
  */
-class NotificationEventType extends \DTS\eBaySDK\Types\BaseType
+class NotificationEventType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

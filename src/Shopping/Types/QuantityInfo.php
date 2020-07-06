@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace maiorADV\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property integer $MinimumRemnantSet
  */
-class QuantityInfo extends \DTS\eBaySDK\Types\BaseType
+class QuantityInfo extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

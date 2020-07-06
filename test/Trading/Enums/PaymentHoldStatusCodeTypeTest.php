@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace maiorADV\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType;
+use maiorADV\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType;
 
 class PaymentHoldStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PaymentHoldStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Enums\PaymentHoldStatusCodeType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Enums;
+namespace maiorADV\eBaySDK\Test\Fulfillment\Enums;
 
-use DTS\eBaySDK\Fulfillment\Enums\RefundStatusEnum;
+use maiorADV\eBaySDK\Fulfillment\Enums\RefundStatusEnum;
 
 class RefundStatusEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class RefundStatusEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Enums\RefundStatusEnum', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Fulfillment\Enums\RefundStatusEnum', $this->obj);
     }
 }

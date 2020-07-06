@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace maiorADV\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType;
+use maiorADV\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType;
 
 class BrandMPNIdentifierEnabledDefinitionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BrandMPNIdentifierEnabledDefinitionTypeTest extends \PHPUnit_Framework_Tes
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

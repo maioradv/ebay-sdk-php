@@ -8,35 +8,35 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CountSummaryType[] $countSummary
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType[] $members
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property \maiorADV\eBaySDK\PostOrder\Types\CountSummaryType[] $countSummary
+ * @property \maiorADV\eBaySDK\PostOrder\Types\ReturnSummaryType[] $members
+ * @property \maiorADV\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
  * @property integer $total
  */
-class GetSummaryResponse extends \DTS\eBaySDK\Types\BaseType
+class GetSummaryResponse extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'countSummary' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CountSummaryType',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\CountSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'countSummary'
         ],
         'members' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\ReturnSummaryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'members'
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

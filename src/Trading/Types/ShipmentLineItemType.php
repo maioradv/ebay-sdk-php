@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\LineItemType[] $LineItem
+ * @property \maiorADV\eBaySDK\Trading\Types\LineItemType[] $LineItem
  */
-class ShipmentLineItemType extends \DTS\eBaySDK\Types\BaseType
+class ShipmentLineItemType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'LineItem' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LineItemType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LineItemType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'LineItem'

@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CancelSummary[] $cancellations
- * @property \DTS\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
+ * @property \maiorADV\eBaySDK\PostOrder\Types\CancelSummary[] $cancellations
+ * @property \maiorADV\eBaySDK\PostOrder\Types\PaginationOutput $paginationOutput
  * @property integer $total
  */
-class FindCancelResponse extends \DTS\eBaySDK\Types\BaseType
+class FindCancelResponse extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'cancellations' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CancelSummary',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\CancelSummary',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'cancellations'
         ],
         'paginationOutput' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\PaginationOutput',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\PaginationOutput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationOutput'

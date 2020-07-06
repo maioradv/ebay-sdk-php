@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace maiorADV\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $PictureName
- * @property \DTS\eBaySDK\MerchantData\Enums\PictureSetCodeType $PictureSet
- * @property \DTS\eBaySDK\MerchantData\Enums\PictureFormatCodeType $PictureFormat
+ * @property \maiorADV\eBaySDK\MerchantData\Enums\PictureSetCodeType $PictureSet
+ * @property \maiorADV\eBaySDK\MerchantData\Enums\PictureFormatCodeType $PictureFormat
  * @property string $FullURL
  * @property string $BaseURL
- * @property \DTS\eBaySDK\MerchantData\Types\PictureSetMemberType[] $PictureSetMember
+ * @property \maiorADV\eBaySDK\MerchantData\Types\PictureSetMemberType[] $PictureSetMember
  * @property string $ExternalPictureURL
  * @property \DateTime $UseByDate
  */
-class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
+class SiteHostedPictureDetailsType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -58,7 +58,7 @@ class SiteHostedPictureDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'BaseURL'
         ],
         'PictureSetMember' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PictureSetMemberType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\PictureSetMemberType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'PictureSetMember'

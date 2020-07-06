@@ -8,132 +8,132 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace maiorADV\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType $ActiveInventoryReport
- * @property \DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType[] $AddFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\AddItemResponseType[] $AddItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\EndFixedPriceItemResponseType[] $EndFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\EndItemResponseType[] $EndItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType $FeeSettlementReport
- * @property \DTS\eBaySDK\MerchantData\Types\OrderAckResponseType[] $OrderAckResponse
- * @property \DTS\eBaySDK\MerchantData\Types\RelistFixedPriceItemResponseType[] $RelistFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\RelistItemResponseType[] $RelistItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType[] $ReviseFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType[] $ReviseInventoryStatusResponse
- * @property \DTS\eBaySDK\MerchantData\Types\ReviseItemResponseType[] $ReviseItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType[] $SetShipmentTrackingInfoResponse
- * @property \DTS\eBaySDK\MerchantData\Types\SoldReportResponseType $SoldReport
- * @property \DTS\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType[] $UploadSiteHostedPicturesResponse
- * @property \DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType[] $VerifyAddFixedPriceItemResponse
- * @property \DTS\eBaySDK\MerchantData\Types\VerifyAddItemResponseType[] $VerifyAddItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType $ActiveInventoryReport
+ * @property \maiorADV\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType[] $AddFixedPriceItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\AddItemResponseType[] $AddItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\EndFixedPriceItemResponseType[] $EndFixedPriceItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\EndItemResponseType[] $EndItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType $FeeSettlementReport
+ * @property \maiorADV\eBaySDK\MerchantData\Types\OrderAckResponseType[] $OrderAckResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\RelistFixedPriceItemResponseType[] $RelistFixedPriceItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\RelistItemResponseType[] $RelistItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType[] $ReviseFixedPriceItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType[] $ReviseInventoryStatusResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\ReviseItemResponseType[] $ReviseItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType[] $SetShipmentTrackingInfoResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\SoldReportResponseType $SoldReport
+ * @property \maiorADV\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType[] $UploadSiteHostedPicturesResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType[] $VerifyAddFixedPriceItemResponse
+ * @property \maiorADV\eBaySDK\MerchantData\Types\VerifyAddItemResponseType[] $VerifyAddItemResponse
  */
-class BulkDataExchangeResponsesType extends \DTS\eBaySDK\Types\BaseType
+class BulkDataExchangeResponsesType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ActiveInventoryReport' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\ActiveInventoryReportResponseType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ActiveInventoryReport'
         ],
         'AddFixedPriceItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\AddFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AddFixedPriceItemResponse'
         ],
         'AddItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AddItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\AddItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AddItemResponse'
         ],
         'EndFixedPriceItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\EndFixedPriceItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\EndFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'EndFixedPriceItemResponse'
         ],
         'EndItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\EndItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\EndItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'EndItemResponse'
         ],
         'FeeSettlementReport' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\FeeSettlementReportResponseType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FeeSettlementReport'
         ],
         'OrderAckResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\OrderAckResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\OrderAckResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'OrderAckResponse'
         ],
         'RelistFixedPriceItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\RelistFixedPriceItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\RelistFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'RelistFixedPriceItemResponse'
         ],
         'RelistItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\RelistItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\RelistItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'RelistItemResponse'
         ],
         'ReviseFixedPriceItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\ReviseFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReviseFixedPriceItemResponse'
         ],
         'ReviseInventoryStatusResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\ReviseInventoryStatusResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReviseInventoryStatusResponse'
         ],
         'ReviseItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\ReviseItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\ReviseItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReviseItemResponse'
         ],
         'SetShipmentTrackingInfoResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\SetShipmentTrackingInfoResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SetShipmentTrackingInfoResponse'
         ],
         'SoldReport' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\SoldReportResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\SoldReportResponseType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SoldReport'
         ],
         'UploadSiteHostedPicturesResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\UploadSiteHostedPicturesResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'UploadSiteHostedPicturesResponse'
         ],
         'VerifyAddFixedPriceItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\VerifyAddFixedPriceItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VerifyAddFixedPriceItemResponse'
         ],
         'VerifyAddItemResponse' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\VerifyAddItemResponseType',
+            'type' => 'maiorADV\eBaySDK\MerchantData\Types\VerifyAddItemResponseType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VerifyAddItemResponse'

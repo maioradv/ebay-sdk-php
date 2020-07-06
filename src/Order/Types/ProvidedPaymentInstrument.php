@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace maiorADV\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\PaymentInstrumentReference $paymentInstrumentReference
- * @property \DTS\eBaySDK\Order\Types\PaymentMethodBrand $paymentMethodBrand
- * @property \DTS\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
+ * @property \maiorADV\eBaySDK\Order\Types\PaymentInstrumentReference $paymentInstrumentReference
+ * @property \maiorADV\eBaySDK\Order\Types\PaymentMethodBrand $paymentMethodBrand
+ * @property \maiorADV\eBaySDK\Order\Enums\PaymentMethodTypeEnum $paymentMethodType
  */
-class ProvidedPaymentInstrument extends \DTS\eBaySDK\Types\BaseType
+class ProvidedPaymentInstrument extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'paymentInstrumentReference' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentInstrumentReference',
+            'type' => 'maiorADV\eBaySDK\Order\Types\PaymentInstrumentReference',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paymentInstrumentReference'
         ],
         'paymentMethodBrand' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethodBrand',
+            'type' => 'maiorADV\eBaySDK\Order\Types\PaymentMethodBrand',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paymentMethodBrand'

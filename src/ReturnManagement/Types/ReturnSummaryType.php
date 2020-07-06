@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace maiorADV\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnType $ReturnType
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnUserType $otherParty
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType $returnRequest
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnStatusType $status
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnResponseDueType $responseDue
+ * @property \maiorADV\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
+ * @property \maiorADV\eBaySDK\ReturnManagement\Enums\ReturnType $ReturnType
+ * @property \maiorADV\eBaySDK\ReturnManagement\Types\ReturnUserType $otherParty
+ * @property \maiorADV\eBaySDK\ReturnManagement\Types\ReturnRequestType $returnRequest
+ * @property \maiorADV\eBaySDK\ReturnManagement\Enums\ReturnStatusType $status
+ * @property \maiorADV\eBaySDK\ReturnManagement\Types\ReturnResponseDueType $responseDue
  * @property \DateTime $creationDate
  * @property \DateTime $lastModifiedDate
  */
-class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
+class ReturnSummaryType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'type' => 'maiorADV\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnId'
@@ -40,13 +40,13 @@ class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ReturnType'
         ],
         'otherParty' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnUserType',
+            'type' => 'maiorADV\eBaySDK\ReturnManagement\Types\ReturnUserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'otherParty'
         ],
         'returnRequest' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnRequestType',
+            'type' => 'maiorADV\eBaySDK\ReturnManagement\Types\ReturnRequestType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnRequest'
@@ -58,7 +58,7 @@ class ReturnSummaryType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'status'
         ],
         'responseDue' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnResponseDueType',
+            'type' => 'maiorADV\eBaySDK\ReturnManagement\Types\ReturnResponseDueType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'responseDue'

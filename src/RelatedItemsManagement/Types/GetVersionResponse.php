@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace maiorADV\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
  */
-class GetVersionResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseResponse
+class GetVersionResponse extends \maiorADV\eBaySDK\RelatedItemsManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.

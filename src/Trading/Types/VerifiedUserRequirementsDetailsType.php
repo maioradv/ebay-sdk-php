@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property boolean $VerifiedUser
  * @property integer[] $FeedbackScore
  */
-class VerifiedUserRequirementsDetailsType extends \DTS\eBaySDK\Types\BaseType
+class VerifiedUserRequirementsDetailsType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

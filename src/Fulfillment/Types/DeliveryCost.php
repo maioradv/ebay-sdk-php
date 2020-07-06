@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace maiorADV\eBaySDK\Fulfillment\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $importCharges
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $shippingCost
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $shippingIntermediationFee
- * @property \DTS\eBaySDK\Fulfillment\Types\Amount $discountAmount
+ * @property \maiorADV\eBaySDK\Fulfillment\Types\Amount $importCharges
+ * @property \maiorADV\eBaySDK\Fulfillment\Types\Amount $shippingCost
+ * @property \maiorADV\eBaySDK\Fulfillment\Types\Amount $shippingIntermediationFee
+ * @property \maiorADV\eBaySDK\Fulfillment\Types\Amount $discountAmount
  */
-class DeliveryCost extends \DTS\eBaySDK\Types\BaseType
+class DeliveryCost extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'importCharges' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'maiorADV\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'importCharges'
         ],
         'shippingCost' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'maiorADV\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingCost'
         ],
         'shippingIntermediationFee' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'maiorADV\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingIntermediationFee'
         ],
         'discountAmount' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Amount',
+            'type' => 'maiorADV\eBaySDK\Fulfillment\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountAmount'

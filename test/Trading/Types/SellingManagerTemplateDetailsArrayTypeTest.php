@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace maiorADV\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType;
+use maiorADV\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType;
 
 class SellingManagerTemplateDetailsArrayTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SellingManagerTemplateDetailsArrayTypeTest extends \PHPUnit_Framework_Test
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Types\SellingManagerTemplateDetailsArrayType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $RightsOwnerID
- * @property \DTS\eBaySDK\Trading\Types\VeROReportItemsType $ReportItems
+ * @property \maiorADV\eBaySDK\Trading\Types\VeROReportItemsType $ReportItems
  */
-class VeROReportItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class VeROReportItemsRequestType extends \maiorADV\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class VeROReportItemsRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequ
             'elementName' => 'RightsOwnerID'
         ],
         'ReportItems' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VeROReportItemsType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\VeROReportItemsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReportItems'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Analytics\Types;
+namespace maiorADV\eBaySDK\Test\Analytics\Types;
 
-use DTS\eBaySDK\Analytics\Types\RangeValue;
+use maiorADV\eBaySDK\Analytics\Types\RangeValue;
 
 class RangeValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class RangeValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Analytics\Types\RangeValue', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Analytics\Types\RangeValue', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

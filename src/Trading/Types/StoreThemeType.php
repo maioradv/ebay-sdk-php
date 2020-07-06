@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $ThemeID
  * @property string $Name
- * @property \DTS\eBaySDK\Trading\Types\StoreColorSchemeType $ColorScheme
+ * @property \maiorADV\eBaySDK\Trading\Types\StoreColorSchemeType $ColorScheme
  */
-class StoreThemeType extends \DTS\eBaySDK\Types\BaseType
+class StoreThemeType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -35,7 +35,7 @@ class StoreThemeType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Name'
         ],
         'ColorScheme' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreColorSchemeType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\StoreColorSchemeType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ColorScheme'

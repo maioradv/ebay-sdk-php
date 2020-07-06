@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Finding\Enums;
+namespace maiorADV\eBaySDK\Test\Finding\Enums;
 
-use DTS\eBaySDK\Finding\Enums\GallerySizeEnum;
+use maiorADV\eBaySDK\Finding\Enums\GallerySizeEnum;
 
 class GallerySizeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class GallerySizeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Enums\GallerySizeEnum', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Finding\Enums\GallerySizeEnum', $this->obj);
     }
 }

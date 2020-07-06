@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Compliance\Types;
+namespace maiorADV\eBaySDK\Test\Compliance\Types;
 
-use DTS\eBaySDK\Compliance\Types\ComplianceDetail;
+use maiorADV\eBaySDK\Compliance\Types\ComplianceDetail;
 
 class ComplianceDetailTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ComplianceDetailTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Compliance\Types\ComplianceDetail', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Compliance\Types\ComplianceDetail', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

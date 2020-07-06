@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace maiorADV\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property boolean $buyerProtection
  * @property boolean $fromBestOffer
  */
-class LineItemProperties extends \DTS\eBaySDK\Types\BaseType
+class LineItemProperties extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

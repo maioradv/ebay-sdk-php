@@ -8,29 +8,29 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\GetDetailResponse $detail
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType $eligibilityResult
+ * @property \maiorADV\eBaySDK\PostOrder\Types\GetDetailResponse $detail
+ * @property \maiorADV\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType $eligibilityResult
  * @property string $returnId
- * @property \DTS\eBaySDK\PostOrder\Types\ReturnSummaryType $summary
+ * @property \maiorADV\eBaySDK\PostOrder\Types\ReturnSummaryType $summary
  */
-class CreateReturnResponse extends \DTS\eBaySDK\Types\BaseType
+class CreateReturnResponse extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'detail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\GetDetailResponse',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\GetDetailResponse',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'detail'
         ],
         'eligibilityResult' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\ReturnEligibilityPerItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eligibilityResult'
@@ -42,7 +42,7 @@ class CreateReturnResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'returnId'
         ],
         'summary' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ReturnSummaryType',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\ReturnSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'summary'

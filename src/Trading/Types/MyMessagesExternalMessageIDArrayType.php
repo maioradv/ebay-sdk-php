@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string[] $ExternalMessageID
  */
-class MyMessagesExternalMessageIDArrayType extends \DTS\eBaySDK\Types\BaseType
+class MyMessagesExternalMessageIDArrayType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

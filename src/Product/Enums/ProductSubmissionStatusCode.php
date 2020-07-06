@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Enums;
+namespace maiorADV\eBaySDK\Product\Enums;
 
 class ProductSubmissionStatusCode
 {

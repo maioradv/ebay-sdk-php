@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace maiorADV\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\GalleryURL[] $galleryURL
+ * @property \maiorADV\eBaySDK\Finding\Types\GalleryURL[] $galleryURL
  */
-class GalleryInfoContainer extends \DTS\eBaySDK\Types\BaseType
+class GalleryInfoContainer extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'galleryURL' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\GalleryURL',
+            'type' => 'maiorADV\eBaySDK\Finding\Types\GalleryURL',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'galleryURL'

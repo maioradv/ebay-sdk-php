@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace maiorADV\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\SiteCodeType[] $SupportedSite
+ * @property \maiorADV\eBaySDK\MerchantData\Enums\SiteCodeType[] $SupportedSite
  */
-class IntegratedMerchantCreditCardInfoType extends \DTS\eBaySDK\Types\BaseType
+class IntegratedMerchantCreditCardInfoType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

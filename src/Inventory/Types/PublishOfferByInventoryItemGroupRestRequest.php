@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace maiorADV\eBaySDK\Inventory\Types;
 
 /**
  *
  */
-class PublishOfferByInventoryItemGroupRestRequest extends \DTS\eBaySDK\Inventory\Types\PublishByInventoryItemGroupRequest
+class PublishOfferByInventoryItemGroupRestRequest extends \maiorADV\eBaySDK\Inventory\Types\PublishByInventoryItemGroupRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

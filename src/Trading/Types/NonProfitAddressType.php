@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $ZipCode
  * @property integer $Latitude
  * @property integer $Longitude
- * @property \DTS\eBaySDK\Trading\Enums\AddressTypeCodeType $AddressType
+ * @property \maiorADV\eBaySDK\Trading\Enums\AddressTypeCodeType $AddressType
  */
-class NonProfitAddressType extends \DTS\eBaySDK\Types\BaseType
+class NonProfitAddressType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $inquiryId
  */
-class CloseInquiryRestRequest extends \DTS\eBaySDK\PostOrder\Types\BuyerCloseInquiryRequest
+class CloseInquiryRestRequest extends \maiorADV\eBaySDK\PostOrder\Types\BuyerCloseInquiryRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

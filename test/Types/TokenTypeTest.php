@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace maiorADV\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Types\TokenType;
+use maiorADV\eBaySDK\Types\TokenType;
 
 class TokenTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,12 +14,12 @@ class TokenTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\TokenType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\TokenType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 
     public function testHasValueProperty()

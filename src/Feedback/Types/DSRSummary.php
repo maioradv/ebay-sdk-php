@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Types;
+namespace maiorADV\eBaySDK\Feedback\Types;
 
 /**
  *
@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\Feedback\Types;
  * @property integer $rating4Count
  * @property integer $rating5Count
  */
-class DSRSummary extends \DTS\eBaySDK\Types\BaseType
+class DSRSummary extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

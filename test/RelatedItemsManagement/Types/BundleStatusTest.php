@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\RelatedItemsManagement\Types;
+namespace maiorADV\eBaySDK\Test\RelatedItemsManagement\Types;
 
-use DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus;
+use maiorADV\eBaySDK\RelatedItemsManagement\Types\BundleStatus;
 
 class BundleStatusTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BundleStatusTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\RelatedItemsManagement\Types\BundleStatus', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

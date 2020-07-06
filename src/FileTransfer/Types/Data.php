@@ -1,18 +1,18 @@
 <?php
-namespace DTS\eBaySDK\FileTransfer\Types;
+namespace maiorADV\eBaySDK\FileTransfer\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\FileTransfer\Types\XopInclude $xopInclude
+ * @property \maiorADV\eBaySDK\FileTransfer\Types\XopInclude $xopInclude
  */
-class Data extends \DTS\eBaySDK\Types\BaseType
+class Data extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'xopInclude' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\XopInclude',
+            'type' => 'maiorADV\eBaySDK\FileTransfer\Types\XopInclude',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'xop:Include'

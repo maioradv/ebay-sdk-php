@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace maiorADV\eBaySDK\Shopping\Types;
 
 /**
  *
  */
-class GeteBayTimeRequestType extends \DTS\eBaySDK\Shopping\Types\AbstractRequestType
+class GeteBayTimeRequestType extends \maiorADV\eBaySDK\Shopping\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-namespace DTS\eBaySDK\JmesPath;
+namespace maiorADV\eBaySDK\JmesPath;
 
 /**
  * Tree visitor used to compile JMESPath expressions into native PHP code.

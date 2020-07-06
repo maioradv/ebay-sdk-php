@@ -8,25 +8,25 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Analytics\Types;
+namespace maiorADV\eBaySDK\Analytics\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Analytics\Types\Cycle $cycle
+ * @property \maiorADV\eBaySDK\Analytics\Types\Cycle $cycle
  * @property boolean $defaultProgram
  * @property string $evaluationReason
- * @property \DTS\eBaySDK\Analytics\Types\Metric[] $metrics
- * @property \DTS\eBaySDK\Analytics\Enums\ProgramEnum $program
- * @property \DTS\eBaySDK\Analytics\Enums\StandardsLevelEnum $standardsLevel
+ * @property \maiorADV\eBaySDK\Analytics\Types\Metric[] $metrics
+ * @property \maiorADV\eBaySDK\Analytics\Enums\ProgramEnum $program
+ * @property \maiorADV\eBaySDK\Analytics\Enums\StandardsLevelEnum $standardsLevel
  */
-class StandardsProfile extends \DTS\eBaySDK\Types\BaseType
+class StandardsProfile extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'cycle' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Cycle',
+            'type' => 'maiorADV\eBaySDK\Analytics\Types\Cycle',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'cycle'
@@ -44,7 +44,7 @@ class StandardsProfile extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'evaluationReason'
         ],
         'metrics' => [
-            'type' => 'DTS\eBaySDK\Analytics\Types\Metric',
+            'type' => 'maiorADV\eBaySDK\Analytics\Types\Metric',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'metrics'

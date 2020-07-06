@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\Mocks;
+namespace maiorADV\eBaySDK\Test\Mocks;
 
-class URIType extends \DTS\eBaySDK\Types\URIType
+class URIType extends \maiorADV\eBaySDK\Types\URIType
 {
     private static $propertyTypes = [];
 

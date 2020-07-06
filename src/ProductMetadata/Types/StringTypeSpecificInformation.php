@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace maiorADV\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string[] $managedValue
  * @property integer $maximumCharactersAllowed
  */
-class StringTypeSpecificInformation extends \DTS\eBaySDK\Types\BaseType
+class StringTypeSpecificInformation extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

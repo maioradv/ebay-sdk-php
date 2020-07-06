@@ -8,28 +8,28 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\SMSSubscriptionType $SMSSubscription
- * @property \DTS\eBaySDK\Trading\Types\SummaryEventScheduleType[] $SummarySchedule
+ * @property \maiorADV\eBaySDK\Trading\Types\SMSSubscriptionType $SMSSubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\SummaryEventScheduleType[] $SummarySchedule
  * @property string $ExternalUserData
  */
-class NotificationUserDataType extends \DTS\eBaySDK\Types\BaseType
+class NotificationUserDataType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'SMSSubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SMSSubscriptionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SMSSubscriptionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SMSSubscription'
         ],
         'SummarySchedule' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SummaryEventScheduleType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SummaryEventScheduleType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'SummarySchedule'

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType[] $AddMemberMessagesAAQToBidderRequestContainer
+ * @property \maiorADV\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType[] $AddMemberMessagesAAQToBidderRequestContainer
  */
-class AddMemberMessagesAAQToBidderRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddMemberMessagesAAQToBidderRequestType extends \maiorADV\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'AddMemberMessagesAAQToBidderRequestContainer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\AddMemberMessagesAAQToBidderRequestContainerType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'AddMemberMessagesAAQToBidderRequestContainer'

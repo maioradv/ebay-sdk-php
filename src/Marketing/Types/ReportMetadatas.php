@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace maiorADV\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\ReportMetadata[] $reportMetadata
+ * @property \maiorADV\eBaySDK\Marketing\Types\ReportMetadata[] $reportMetadata
  */
-class ReportMetadatas extends \DTS\eBaySDK\Types\BaseType
+class ReportMetadatas extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'reportMetadata' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\ReportMetadata',
+            'type' => 'maiorADV\eBaySDK\Marketing\Types\ReportMetadata',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'reportMetadata'

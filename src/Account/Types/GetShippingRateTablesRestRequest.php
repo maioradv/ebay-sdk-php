@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace maiorADV\eBaySDK\Account\Types;
 
 /**
  *
  * @property string $country_code
  */
-class GetShippingRateTablesRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetShippingRateTablesRestRequest extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

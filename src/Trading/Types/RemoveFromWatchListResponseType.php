@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $WatchListCount
  * @property integer $WatchListMaximum
  */
-class RemoveFromWatchListResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class RemoveFromWatchListResponseType extends \maiorADV\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

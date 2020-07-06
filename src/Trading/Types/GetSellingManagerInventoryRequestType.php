@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType $Sort
+ * @property \maiorADV\eBaySDK\Trading\Enums\SellingManagerProductSortCodeType $Sort
  * @property integer $FolderID
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerSearchType $Search
+ * @property \maiorADV\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \maiorADV\eBaySDK\Trading\Enums\SortOrderCodeType $SortOrder
+ * @property \maiorADV\eBaySDK\Trading\Types\SellingManagerSearchType $Search
  * @property integer $StoreCategoryID
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType[] $Filter
+ * @property \maiorADV\eBaySDK\Trading\Enums\SellingManagerInventoryPropertyTypeCodeType[] $Filter
  */
-class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetSellingManagerInventoryRequestType extends \maiorADV\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,7 +39,7 @@ class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\A
             'elementName' => 'FolderID'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'
@@ -51,7 +51,7 @@ class GetSellingManagerInventoryRequestType extends \DTS\eBaySDK\Trading\Types\A
             'elementName' => 'SortOrder'
         ],
         'Search' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerSearchType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SellingManagerSearchType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Search'

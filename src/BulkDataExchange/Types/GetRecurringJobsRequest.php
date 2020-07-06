@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace maiorADV\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  */
-class GetRecurringJobsRequest extends \DTS\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
+class GetRecurringJobsRequest extends \maiorADV\eBaySDK\BulkDataExchange\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

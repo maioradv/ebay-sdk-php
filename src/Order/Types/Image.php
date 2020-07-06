@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace maiorADV\eBaySDK\Order\Types;
 
 /**
  *
@@ -16,7 +16,7 @@ namespace DTS\eBaySDK\Order\Types;
  * @property string $imageUrl
  * @property integer $width
  */
-class Image extends \DTS\eBaySDK\Types\BaseType
+class Image extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

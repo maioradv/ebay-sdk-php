@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Compliance\Services;
+namespace maiorADV\eBaySDK\Compliance\Services;
 
 /**
  * Base class for the Compliance service.
  */
-class ComplianceBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class ComplianceBaseService extends \maiorADV\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class ComplianceBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\Compliance\Services\ComplianceService::API_VERSION,
+                'default' => \maiorADV\eBaySDK\Compliance\Services\ComplianceService::API_VERSION,
                 'required' => true
             ],
             'authorization' => [

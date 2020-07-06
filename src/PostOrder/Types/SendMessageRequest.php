@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace maiorADV\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Text $message
+ * @property \maiorADV\eBaySDK\PostOrder\Types\Text $message
  */
-class SendMessageRequest extends \DTS\eBaySDK\Types\BaseType
+class SendMessageRequest extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'message' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'maiorADV\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'message'

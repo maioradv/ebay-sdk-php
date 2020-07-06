@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace maiorADV\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Enums\GallerySizeEnum $gallerySize
+ * @property \maiorADV\eBaySDK\Finding\Enums\GallerySizeEnum $gallerySize
  */
-class GalleryURL extends \DTS\eBaySDK\Types\URIType
+class GalleryURL extends \maiorADV\eBaySDK\Types\URIType
 {
     /**
      * @var array Properties belonging to objects of this class.

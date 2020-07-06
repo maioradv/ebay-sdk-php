@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\FileTransfer\Types;
+namespace maiorADV\eBaySDK\FileTransfer\Types;
 
 /**
  *
  * @property integer $Size
- * @property \DTS\eBaySDK\FileTransfer\Types\Data $Data
+ * @property \maiorADV\eBaySDK\FileTransfer\Types\Data $Data
  */
-class FileAttachment extends \DTS\eBaySDK\Types\BaseType
+class FileAttachment extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class FileAttachment extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Size'
         ],
         'Data' => [
-            'type' => 'DTS\eBaySDK\FileTransfer\Types\Data',
+            'type' => 'maiorADV\eBaySDK\FileTransfer\Types\Data',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Data'

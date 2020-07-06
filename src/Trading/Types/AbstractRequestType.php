@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType $RequesterCredentials
- * @property \DTS\eBaySDK\Trading\Enums\DetailLevelCodeType[] $DetailLevel
+ * @property \maiorADV\eBaySDK\Trading\Types\CustomSecurityHeaderType $RequesterCredentials
+ * @property \maiorADV\eBaySDK\Trading\Enums\DetailLevelCodeType[] $DetailLevel
  * @property string $ErrorLanguage
  * @property string $MessageID
  * @property string $Version
  * @property string $EndUserIP
- * @property \DTS\eBaySDK\Trading\Enums\ErrorHandlingCodeType $ErrorHandling
+ * @property \maiorADV\eBaySDK\Trading\Enums\ErrorHandlingCodeType $ErrorHandling
  * @property string $InvocationID
  * @property string[] $OutputSelector
- * @property \DTS\eBaySDK\Trading\Enums\WarningLevelCodeType $WarningLevel
- * @property \DTS\eBaySDK\Trading\Types\BotBlockRequestType $BotBlock
+ * @property \maiorADV\eBaySDK\Trading\Enums\WarningLevelCodeType $WarningLevel
+ * @property \maiorADV\eBaySDK\Trading\Types\BotBlockRequestType $BotBlock
  */
-class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
+class AbstractRequestType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'RequesterCredentials' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CustomSecurityHeaderType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\CustomSecurityHeaderType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RequesterCredentials'
@@ -91,7 +91,7 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'WarningLevel'
         ],
         'BotBlock' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BotBlockRequestType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\BotBlockRequestType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BotBlock'

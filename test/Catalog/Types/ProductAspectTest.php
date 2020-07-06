@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Catalog\Types;
+namespace maiorADV\eBaySDK\Test\Catalog\Types;
 
-use DTS\eBaySDK\Catalog\Types\ProductAspect;
+use maiorADV\eBaySDK\Catalog\Types\ProductAspect;
 
 class ProductAspectTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductAspectTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ProductAspect', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Catalog\Types\ProductAspect', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

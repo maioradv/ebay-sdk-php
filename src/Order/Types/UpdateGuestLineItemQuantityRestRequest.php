@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace maiorADV\eBaySDK\Order\Types;
 
 /**
  *
  * @property string $checkoutSessionId
  */
-class UpdateGuestLineItemQuantityRestRequest extends \DTS\eBaySDK\Order\Types\UpdateQuantity
+class UpdateGuestLineItemQuantityRestRequest extends \maiorADV\eBaySDK\Order\Types\UpdateQuantity
 {
     /**
      * @var array Properties belonging to objects of this class.

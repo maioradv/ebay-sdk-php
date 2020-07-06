@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Types;
+namespace maiorADV\eBaySDK\Test\Inventory\Types;
 
-use DTS\eBaySDK\Inventory\Types\VariesBy;
+use maiorADV\eBaySDK\Inventory\Types\VariesBy;
 
 class VariesByTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class VariesByTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\VariesBy', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Inventory\Types\VariesBy', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

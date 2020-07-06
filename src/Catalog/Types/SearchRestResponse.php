@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace maiorADV\eBaySDK\Catalog\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use maiorADV\eBaySDK\StatusCodeTrait;
+use maiorADV\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Catalog\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Catalog\Types\ErrorDetailV3[] $warnings
+ * @property \maiorADV\eBaySDK\Catalog\Types\ErrorDetailV3[] $errors
+ * @property \maiorADV\eBaySDK\Catalog\Types\ErrorDetailV3[] $warnings
  */
-class SearchRestResponse extends \DTS\eBaySDK\Catalog\Types\ProductSearchResponse
+class SearchRestResponse extends \maiorADV\eBaySDK\Catalog\Types\ProductSearchResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class SearchRestResponse extends \DTS\eBaySDK\Catalog\Types\ProductSearchRespons
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ErrorDetailV3',
+            'type' => 'maiorADV\eBaySDK\Catalog\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Catalog\Types\ErrorDetailV3',
+            'type' => 'maiorADV\eBaySDK\Catalog\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

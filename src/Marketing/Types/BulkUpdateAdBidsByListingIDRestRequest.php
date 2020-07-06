@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace maiorADV\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $campaign_id
  */
-class BulkUpdateAdBidsByListingIDRestRequest extends \DTS\eBaySDK\Marketing\Types\BulkCreateAdRequest
+class BulkUpdateAdBidsByListingIDRestRequest extends \maiorADV\eBaySDK\Marketing\Types\BulkCreateAdRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

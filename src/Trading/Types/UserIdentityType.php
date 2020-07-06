@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\UserIdentityCodeType $type
+ * @property \maiorADV\eBaySDK\Trading\Enums\UserIdentityCodeType $type
  */
-class UserIdentityType extends \DTS\eBaySDK\Types\StringType
+class UserIdentityType extends \maiorADV\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

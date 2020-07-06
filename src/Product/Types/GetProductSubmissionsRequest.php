@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace maiorADV\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductSubmissionFilter[] $productSubmissionFilter
- * @property \DTS\eBaySDK\Product\Enums\OutputSelector $outputSelector
- * @property \DTS\eBaySDK\Product\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\Product\Types\SortOption[] $sortOption
+ * @property \maiorADV\eBaySDK\Product\Types\ProductSubmissionFilter[] $productSubmissionFilter
+ * @property \maiorADV\eBaySDK\Product\Enums\OutputSelector $outputSelector
+ * @property \maiorADV\eBaySDK\Product\Types\PaginationInput $paginationInput
+ * @property \maiorADV\eBaySDK\Product\Types\SortOption[] $sortOption
  */
-class GetProductSubmissionsRequest extends \DTS\eBaySDK\Types\BaseType
+class GetProductSubmissionsRequest extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productSubmissionFilter' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductSubmissionFilter',
+            'type' => 'maiorADV\eBaySDK\Product\Types\ProductSubmissionFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productSubmissionFilter'
@@ -36,13 +36,13 @@ class GetProductSubmissionsRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'outputSelector'
         ],
         'paginationInput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationInput',
+            'type' => 'maiorADV\eBaySDK\Product\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'
         ],
         'sortOption' => [
-            'type' => 'DTS\eBaySDK\Product\Types\SortOption',
+            'type' => 'maiorADV\eBaySDK\Product\Types\SortOption',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'sortOption'

@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
  * @property \DateTime $StartTime
  * @property \DateTime $EndTime
- * @property \DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType $NotificationDetailsArray
- * @property \DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
- * @property \DTS\eBaySDK\Trading\Types\NotificationStatisticsType $NotificationStatistics
+ * @property \maiorADV\eBaySDK\Trading\Types\NotificationDetailsArrayType $NotificationDetailsArray
+ * @property \maiorADV\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType $MarkUpMarkDownHistory
+ * @property \maiorADV\eBaySDK\Trading\Types\NotificationStatisticsType $NotificationStatistics
  */
-class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetNotificationsUsageResponseType extends \maiorADV\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,19 +37,19 @@ class GetNotificationsUsageResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'elementName' => 'EndTime'
         ],
         'NotificationDetailsArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationDetailsArrayType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\NotificationDetailsArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NotificationDetailsArray'
         ],
         'MarkUpMarkDownHistory' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\MarkUpMarkDownHistoryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MarkUpMarkDownHistory'
         ],
         'NotificationStatistics' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NotificationStatisticsType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\NotificationStatisticsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NotificationStatistics'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Finding\Types;
+namespace maiorADV\eBaySDK\Test\Finding\Types;
 
-use DTS\eBaySDK\Finding\Types\ListingInfo;
+use maiorADV\eBaySDK\Finding\Types\ListingInfo;
 
 class ListingInfoTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ListingInfoTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Types\ListingInfo', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Finding\Types\ListingInfo', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace maiorADV\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\ItemArrivedWithinEDDCodeType;
+use maiorADV\eBaySDK\Trading\Enums\ItemArrivedWithinEDDCodeType;
 
 class ItemArrivedWithinEDDCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ItemArrivedWithinEDDCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\ItemArrivedWithinEDDCodeType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Trading\Enums\ItemArrivedWithinEDDCodeType', $this->obj);
     }
 }

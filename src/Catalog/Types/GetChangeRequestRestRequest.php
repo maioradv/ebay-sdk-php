@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Catalog\Types;
+namespace maiorADV\eBaySDK\Catalog\Types;
 
 /**
  *
  * @property string $change_request_id
  */
-class GetChangeRequestRestRequest extends \DTS\eBaySDK\Types\BaseType
+class GetChangeRequestRestRequest extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

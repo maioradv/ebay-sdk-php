@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace maiorADV\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
  * @property integer $errorId
  * @property string $domain
  * @property string $subdomain
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\ErrorSeverity $severity
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\ErrorCategory $category
+ * @property \maiorADV\eBaySDK\RelatedItemsManagement\Enums\ErrorSeverity $severity
+ * @property \maiorADV\eBaySDK\RelatedItemsManagement\Enums\ErrorCategory $category
  * @property string $message
  * @property string $exceptionId
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\ErrorParameter[] $parameter
+ * @property \maiorADV\eBaySDK\RelatedItemsManagement\Types\ErrorParameter[] $parameter
  */
-class ErrorData extends \DTS\eBaySDK\Types\BaseType
+class ErrorData extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -70,7 +70,7 @@ class ErrorData extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'exceptionId'
         ],
         'parameter' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\ErrorParameter',
+            'type' => 'maiorADV\eBaySDK\RelatedItemsManagement\Types\ErrorParameter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'parameter'

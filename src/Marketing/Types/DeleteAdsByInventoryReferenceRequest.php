@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace maiorADV\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $inventoryReferenceId
- * @property \DTS\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
+ * @property \maiorADV\eBaySDK\Marketing\Enums\InventoryReferenceTypeEnum $inventoryReferenceType
  */
-class DeleteAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
+class DeleteAdsByInventoryReferenceRequest extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

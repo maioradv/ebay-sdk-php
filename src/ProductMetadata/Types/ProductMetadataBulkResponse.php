@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace maiorADV\eBaySDK\ProductMetadata\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ProductMetadata\Types\ProductMetadataResponse[] $productMetadataResponse
+ * @property \maiorADV\eBaySDK\ProductMetadata\Types\ProductMetadataResponse[] $productMetadataResponse
  */
-class ProductMetadataBulkResponse extends \DTS\eBaySDK\ProductMetadata\Types\BaseResponse
+class ProductMetadataBulkResponse extends \maiorADV\eBaySDK\ProductMetadata\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productMetadataResponse' => [
-            'type' => 'DTS\eBaySDK\ProductMetadata\Types\ProductMetadataResponse',
+            'type' => 'maiorADV\eBaySDK\ProductMetadata\Types\ProductMetadataResponse',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'productMetadataResponse'

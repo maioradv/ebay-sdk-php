@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\PostOrder\Services;
+namespace maiorADV\eBaySDK\PostOrder\Services;
 
 /**
  * Base class for the PostOrder service.
  */
-class PostOrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
+class PostOrderBaseService extends \maiorADV\eBaySDK\Services\BaseRestService
 {
     /**
      * @var array $endPoints The API endpoints.
@@ -44,7 +44,7 @@ class PostOrderBaseService extends \DTS\eBaySDK\Services\BaseRestService
         return $definitions + [
             'apiVersion' => [
                 'valid' => ['string'],
-                'default' => \DTS\eBaySDK\PostOrder\Services\PostOrderService::API_VERSION,
+                'default' => \maiorADV\eBaySDK\PostOrder\Services\PostOrderService::API_VERSION,
                 'required' => true
             ],
             'authToken' => [

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace maiorADV\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\RateTable;
+use maiorADV\eBaySDK\Account\Types\RateTable;
 
 class RateTableTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class RateTableTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\RateTable', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Account\Types\RateTable', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\maiorADV\eBaySDK\Types\BaseType', $this->obj);
     }
 }

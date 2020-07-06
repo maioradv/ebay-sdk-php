@@ -8,860 +8,860 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace maiorADV\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ListingDurationDefinitionsType $ListingDurations
- * @property \DTS\eBaySDK\Trading\Types\ShippingTermRequiredDefinitionType $ShippingTermsRequired
- * @property \DTS\eBaySDK\Trading\Types\BestOfferEnabledDefinitionType $BestOfferEnabled
- * @property \DTS\eBaySDK\Trading\Types\HomePageFeaturedEnabledDefinitionType $HomePageFeaturedEnabled
- * @property \DTS\eBaySDK\Trading\Types\ProPackEnabledDefinitionType $ProPackEnabled
- * @property \DTS\eBaySDK\Trading\Types\ValuePackEnabledDefinitionType $ValuePackEnabled
- * @property \DTS\eBaySDK\Trading\Types\ProPackPlusEnabledDefinitionType $ProPackPlusEnabled
- * @property \DTS\eBaySDK\Trading\Types\AdFormatEnabledDefinitionType $AdFormatEnabled
- * @property \DTS\eBaySDK\Trading\Types\BestOfferCounterEnabledDefinitionType $BestOfferCounterEnabled
- * @property \DTS\eBaySDK\Trading\Types\BestOfferAutoDeclineEnabledDefinitionType $BestOfferAutoDeclineEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketSpecialitySubscriptionDefinitionType $LocalMarketSpecialitySubscription
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketRegularSubscriptionDefinitionType $LocalMarketRegularSubscription
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketPremiumSubscriptionDefinitionType $LocalMarketPremiumSubscription
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketNonSubscriptionDefinitionType $LocalMarketNonSubscription
- * @property \DTS\eBaySDK\Trading\Types\MinimumReservePriceDefinitionType $MinimumReservePrice
- * @property \DTS\eBaySDK\Trading\Types\TCREnabledDefinitionType $TransactionConfirmationRequestEnabled
- * @property \DTS\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType $SellerContactDetailsEnabled
- * @property \DTS\eBaySDK\Trading\Types\SkypeMeTransactionalEnabledDefinitionType $SkypeMeTransactionalEnabled
- * @property \DTS\eBaySDK\Trading\Types\SkypeMeNonTransactionalEnabledDefinitionType $SkypeMeNonTransactionalEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalListingDistancesRegularDefinitionType $LocalListingDistancesRegular
- * @property \DTS\eBaySDK\Trading\Types\LocalListingDistancesSpecialtyDefinitionType $LocalListingDistancesSpecialty
- * @property \DTS\eBaySDK\Trading\Types\LocalListingDistancesNonSubscriptionDefinitionType $LocalListingDistancesNonSubscription
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdPaymentMethodEnabledDefinitionType $ClassifiedAdPaymentMethodEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdShippingMethodEnabledDefinitionType $ClassifiedAdShippingMethodEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledDefinitionType $ClassifiedAdBestOfferEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdCounterOfferEnabledDefinitionType $ClassifiedAdCounterOfferEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdAutoDeclineEnabledDefinitionType $ClassifiedAdAutoDeclineEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdContactByPhoneEnabledDefinitionType $ClassifiedAdContactByPhoneEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdContactByEmailEnabledDefintionType $ClassifiedAdContactByEmailEnabled
- * @property \DTS\eBaySDK\Trading\Types\SafePaymentRequiredDefinitionType $SafePaymentRequired
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdPayPerLeadEnabledDefinitionType $ClassifiedAdPayPerLeadEnabled
- * @property \DTS\eBaySDK\Trading\Types\ItemSpecificsEnabledDefinitionType $ItemSpecificsEnabled
- * @property \DTS\eBaySDK\Trading\Types\PaisaPayFullEscrowEnabledDefinitionType $PaisaPayFullEscrowEnabled
- * @property \DTS\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType $BrandMPNIdentifierEnabled
- * @property \DTS\eBaySDK\Trading\Types\BestOfferAutoAcceptEnabledDefinitionType $BestOfferAutoAcceptEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdAutoAcceptEnabledDefinitionType $ClassifiedAdAutoAcceptEnabled
- * @property \DTS\eBaySDK\Trading\Types\CrossBorderTradeNorthAmericaEnabledDefinitionType $CrossBorderTradeNorthAmericaEnabled
- * @property \DTS\eBaySDK\Trading\Types\CrossBorderTradeGBEnabledDefinitionType $CrossBorderTradeGBEnabled
- * @property \DTS\eBaySDK\Trading\Types\CrossBorderTradeAustraliaEnabledDefinitionType $CrossBorderTradeAustraliaEnabled
- * @property \DTS\eBaySDK\Trading\Types\PayPalBuyerProtectionEnabledDefinitionType $PayPalBuyerProtectionEnabled
- * @property \DTS\eBaySDK\Trading\Types\BuyerGuaranteeEnabledDefinitionType $BuyerGuaranteeEnabled
- * @property \DTS\eBaySDK\Trading\Types\ListingEnhancementDurationDefinitionType $GalleryFeaturedDurations
- * @property \DTS\eBaySDK\Trading\Types\INEscrowWorkflowTimelineDefinitionType $INEscrowWorkflowTimeline
- * @property \DTS\eBaySDK\Trading\Types\PayPalRequiredDefinitionType $PayPalRequired
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProAdFormatEnabledDefinitionType $eBayMotorsProAdFormatEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProContactByPhoneEnabledDefinitionType $eBayMotorsProContactByPhoneEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProPhoneCountDefinitionType $eBayMotorsProPhoneCount
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProContactByAddressEnabledDefinitionType $eBayMotorsProContactByAddressEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProStreetCountDefinitionType $eBayMotorsProStreetCount
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProCompanyNameEnabledDefinitionType $eBayMotorsProCompanyNameEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProContactByEmailEnabledDefinitionType $eBayMotorsProContactByEmailEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProBestOfferEnabledDefinitionType $eBayMotorsProBestOfferEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProAutoAcceptEnabledDefinitionType $eBayMotorsProAutoAcceptEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProAutoDeclineEnabledDefinitionType $eBayMotorsProAutoDeclineEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProPaymentMethodCheckOutEnabledDefinitionType $eBayMotorsProPaymentMethodCheckOutEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProShippingMethodEnabledDefinitionType $eBayMotorsProShippingMethodEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProCounterOfferEnabledDefinitionType $eBayMotorsProCounterOfferEnabled
- * @property \DTS\eBaySDK\Trading\Types\EBayMotorsProSellerContactDetailsEnabledDefinitionType $eBayMotorsProSellerContactDetailsEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketAdFormatEnabledDefinitionType $LocalMarketAdFormatEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketContactByPhoneEnabledDefinitionType $LocalMarketContactByPhoneEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketPhoneCountDefinitionType $LocalMarketPhoneCount
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketContactByAddressEnabledDefinitionType $LocalMarketContactByAddressEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketStreetCountDefinitionType $LocalMarketStreetCount
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketCompanyNameEnabledDefinitionType $LocalMarketCompanyNameEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketContactByEmailEnabledDefinitionType $LocalMarketContactByEmailEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketBestOfferEnabledDefinitionType $LocalMarketBestOfferEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketAutoAcceptEnabledDefinitionType $LocalMarketAutoAcceptEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketAutoDeclineEnabledDefinitionType $LocalMarketAutoDeclineEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketPaymentMethodCheckOutEnabledDefinitionType $LocalMarketPaymentMethodCheckOutEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketShippingMethodEnabledDefinitionType $LocalMarketShippingMethodEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketCounterOfferEnabledDefinitionType $LocalMarketCounterOfferEnabled
- * @property \DTS\eBaySDK\Trading\Types\LocalMarketSellerContactDetailsEnabledDefinitionType $LocalMarketSellerContactDetailsEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdPhoneCountDefinitionType $ClassifiedAdPhoneCount
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdContactByAddressEnabledDefinitionType $ClassifiedAdContactByAddressEnabled
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdStreetCountDefinitionType $ClassifiedAdStreetCount
- * @property \DTS\eBaySDK\Trading\Types\ClassifiedAdCompanyNameEnabledDefinitionType $ClassifiedAdCompanyNameEnabled
- * @property \DTS\eBaySDK\Trading\Types\SpecialitySubscriptionDefinitionType $SpecialitySubscription
- * @property \DTS\eBaySDK\Trading\Types\RegularSubscriptionDefinitionType $RegularSubscription
- * @property \DTS\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType $PremiumSubscription
- * @property \DTS\eBaySDK\Trading\Types\NonSubscriptionDefinitionType $NonSubscription
- * @property \DTS\eBaySDK\Trading\Types\ReturnPolicyEnabledDefinitionType $ReturnPolicyEnabled
- * @property \DTS\eBaySDK\Trading\Types\HandlingTimeEnabledDefinitionType $HandlingTimeEnabled
- * @property \DTS\eBaySDK\Trading\Types\ReviseQuantityAllowedDefinitionType $ReviseQuantityAllowed
- * @property \DTS\eBaySDK\Trading\Types\RevisePriceAllowedDefinitionType $RevisePriceAllowed
- * @property \DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsEnabledDefinitionType $StoreOwnerExtendedListingDurationsEnabled
- * @property \DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsDefinitionType $StoreOwnerExtendedListingDurations
- * @property \DTS\eBaySDK\Trading\Types\PaymentMethodDefinitionType $PaymentMethod
- * @property \DTS\eBaySDK\Trading\Types\Group1MaxFlatShippingCostDefinitionType $Group1MaxFlatShippingCost
- * @property \DTS\eBaySDK\Trading\Types\Group2MaxFlatShippingCostDefinitionType $Group2MaxFlatShippingCost
- * @property \DTS\eBaySDK\Trading\Types\Group3MaxFlatShippingCostDefinitionType $Group3MaxFlatShippingCost
- * @property \DTS\eBaySDK\Trading\Types\MaxFlatShippingCostCBTExemptDefinitionType $MaxFlatShippingCostCBTExempt
- * @property \DTS\eBaySDK\Trading\Types\MaxFlatShippingCostDefinitionType $MaxFlatShippingCost
- * @property \DTS\eBaySDK\Trading\Types\VariationsEnabledDefinitionType $VariationsEnabled
- * @property \DTS\eBaySDK\Trading\Types\FreeGalleryPlusEnabledDefinitionType $FreeGalleryPlusEnabled
- * @property \DTS\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType $FreePicturePackEnabled
- * @property \DTS\eBaySDK\Trading\Types\ItemCompatibilityEnabledDefinitionType $ItemCompatibilityEnabled
- * @property \DTS\eBaySDK\Trading\Types\MaxItemCompatibilityDefinitionType $MaxItemCompatibility
- * @property \DTS\eBaySDK\Trading\Types\MinItemCompatibilityDefinitionType $MinItemCompatibility
- * @property \DTS\eBaySDK\Trading\Types\ConditionEnabledDefinitionType $ConditionEnabled
- * @property \DTS\eBaySDK\Trading\Types\ConditionValuesDefinitionType $ConditionValues
- * @property \DTS\eBaySDK\Trading\Types\ValueCategoryDefinitionType $ValueCategory
- * @property \DTS\eBaySDK\Trading\Types\ProductCreationEnabledDefinitionType $ProductCreationEnabled
- * @property \DTS\eBaySDK\Trading\Types\EANEnabledDefinitionType $EANEnabled
- * @property \DTS\eBaySDK\Trading\Types\ISBNEnabledDefinitionType $ISBNEnabled
- * @property \DTS\eBaySDK\Trading\Types\UPCEnabledDefinitionType $UPCEnabled
- * @property \DTS\eBaySDK\Trading\Types\CompatibleVehicleTypeDefinitionType $CompatibleVehicleType
- * @property \DTS\eBaySDK\Trading\Types\MaxGranularFitmentCountDefinitionType $MaxGranularFitmentCount
- * @property \DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType $ShippingProfileCategoryGroup
- * @property \DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType $PaymentProfileCategoryGroup
- * @property \DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType $ReturnPolicyProfileCategoryGroup
- * @property \DTS\eBaySDK\Trading\Types\VINSupportedDefinitionType $VINSupported
- * @property \DTS\eBaySDK\Trading\Types\VRMSupportedDefinitionType $VRMSupported
- * @property \DTS\eBaySDK\Trading\Types\SellerProvidedTitleSupportedDefinitionType $SellerProvidedTitleSupported
- * @property \DTS\eBaySDK\Trading\Types\DepositSupportedDefinitionType $DepositSupported
- * @property \DTS\eBaySDK\Trading\Types\GlobalShippingEnabledDefinitionType $GlobalShippingEnabled
- * @property \DTS\eBaySDK\Trading\Types\AdditionalCompatibilityEnabledDefinitionType $AdditionalCompatibilityEnabled
- * @property \DTS\eBaySDK\Trading\Types\PickupDropOffEnabledDefinitionType $PickupDropOffEnabled
- * @property \DTS\eBaySDK\Trading\Types\DigitalGoodDeliveryEnabledDefinitionType $DigitalGoodDeliveryEnabled
- * @property \DTS\eBaySDK\Trading\Types\EpidSupportedDefinitionType $EpidSupported
- * @property \DTS\eBaySDK\Trading\Types\KTypeSupportedDefinitionType $KTypeSupported
- * @property \DTS\eBaySDK\Trading\Types\ProductRequiredEnabledDefinitionType $ProductRequiredEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ListingDurationDefinitionsType $ListingDurations
+ * @property \maiorADV\eBaySDK\Trading\Types\ShippingTermRequiredDefinitionType $ShippingTermsRequired
+ * @property \maiorADV\eBaySDK\Trading\Types\BestOfferEnabledDefinitionType $BestOfferEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\HomePageFeaturedEnabledDefinitionType $HomePageFeaturedEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ProPackEnabledDefinitionType $ProPackEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ValuePackEnabledDefinitionType $ValuePackEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ProPackPlusEnabledDefinitionType $ProPackPlusEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\AdFormatEnabledDefinitionType $AdFormatEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\BestOfferCounterEnabledDefinitionType $BestOfferCounterEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\BestOfferAutoDeclineEnabledDefinitionType $BestOfferAutoDeclineEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketSpecialitySubscriptionDefinitionType $LocalMarketSpecialitySubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketRegularSubscriptionDefinitionType $LocalMarketRegularSubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketPremiumSubscriptionDefinitionType $LocalMarketPremiumSubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketNonSubscriptionDefinitionType $LocalMarketNonSubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\MinimumReservePriceDefinitionType $MinimumReservePrice
+ * @property \maiorADV\eBaySDK\Trading\Types\TCREnabledDefinitionType $TransactionConfirmationRequestEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType $SellerContactDetailsEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\SkypeMeTransactionalEnabledDefinitionType $SkypeMeTransactionalEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\SkypeMeNonTransactionalEnabledDefinitionType $SkypeMeNonTransactionalEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalListingDistancesRegularDefinitionType $LocalListingDistancesRegular
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalListingDistancesSpecialtyDefinitionType $LocalListingDistancesSpecialty
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalListingDistancesNonSubscriptionDefinitionType $LocalListingDistancesNonSubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdPaymentMethodEnabledDefinitionType $ClassifiedAdPaymentMethodEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdShippingMethodEnabledDefinitionType $ClassifiedAdShippingMethodEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledDefinitionType $ClassifiedAdBestOfferEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdCounterOfferEnabledDefinitionType $ClassifiedAdCounterOfferEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdAutoDeclineEnabledDefinitionType $ClassifiedAdAutoDeclineEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdContactByPhoneEnabledDefinitionType $ClassifiedAdContactByPhoneEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdContactByEmailEnabledDefintionType $ClassifiedAdContactByEmailEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\SafePaymentRequiredDefinitionType $SafePaymentRequired
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdPayPerLeadEnabledDefinitionType $ClassifiedAdPayPerLeadEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ItemSpecificsEnabledDefinitionType $ItemSpecificsEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\PaisaPayFullEscrowEnabledDefinitionType $PaisaPayFullEscrowEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType $BrandMPNIdentifierEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\BestOfferAutoAcceptEnabledDefinitionType $BestOfferAutoAcceptEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdAutoAcceptEnabledDefinitionType $ClassifiedAdAutoAcceptEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\CrossBorderTradeNorthAmericaEnabledDefinitionType $CrossBorderTradeNorthAmericaEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\CrossBorderTradeGBEnabledDefinitionType $CrossBorderTradeGBEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\CrossBorderTradeAustraliaEnabledDefinitionType $CrossBorderTradeAustraliaEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\PayPalBuyerProtectionEnabledDefinitionType $PayPalBuyerProtectionEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\BuyerGuaranteeEnabledDefinitionType $BuyerGuaranteeEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ListingEnhancementDurationDefinitionType $GalleryFeaturedDurations
+ * @property \maiorADV\eBaySDK\Trading\Types\INEscrowWorkflowTimelineDefinitionType $INEscrowWorkflowTimeline
+ * @property \maiorADV\eBaySDK\Trading\Types\PayPalRequiredDefinitionType $PayPalRequired
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProAdFormatEnabledDefinitionType $eBayMotorsProAdFormatEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProContactByPhoneEnabledDefinitionType $eBayMotorsProContactByPhoneEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProPhoneCountDefinitionType $eBayMotorsProPhoneCount
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProContactByAddressEnabledDefinitionType $eBayMotorsProContactByAddressEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProStreetCountDefinitionType $eBayMotorsProStreetCount
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProCompanyNameEnabledDefinitionType $eBayMotorsProCompanyNameEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProContactByEmailEnabledDefinitionType $eBayMotorsProContactByEmailEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProBestOfferEnabledDefinitionType $eBayMotorsProBestOfferEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProAutoAcceptEnabledDefinitionType $eBayMotorsProAutoAcceptEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProAutoDeclineEnabledDefinitionType $eBayMotorsProAutoDeclineEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProPaymentMethodCheckOutEnabledDefinitionType $eBayMotorsProPaymentMethodCheckOutEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProShippingMethodEnabledDefinitionType $eBayMotorsProShippingMethodEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProCounterOfferEnabledDefinitionType $eBayMotorsProCounterOfferEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EBayMotorsProSellerContactDetailsEnabledDefinitionType $eBayMotorsProSellerContactDetailsEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketAdFormatEnabledDefinitionType $LocalMarketAdFormatEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketContactByPhoneEnabledDefinitionType $LocalMarketContactByPhoneEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketPhoneCountDefinitionType $LocalMarketPhoneCount
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketContactByAddressEnabledDefinitionType $LocalMarketContactByAddressEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketStreetCountDefinitionType $LocalMarketStreetCount
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketCompanyNameEnabledDefinitionType $LocalMarketCompanyNameEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketContactByEmailEnabledDefinitionType $LocalMarketContactByEmailEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketBestOfferEnabledDefinitionType $LocalMarketBestOfferEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketAutoAcceptEnabledDefinitionType $LocalMarketAutoAcceptEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketAutoDeclineEnabledDefinitionType $LocalMarketAutoDeclineEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketPaymentMethodCheckOutEnabledDefinitionType $LocalMarketPaymentMethodCheckOutEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketShippingMethodEnabledDefinitionType $LocalMarketShippingMethodEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketCounterOfferEnabledDefinitionType $LocalMarketCounterOfferEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\LocalMarketSellerContactDetailsEnabledDefinitionType $LocalMarketSellerContactDetailsEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdPhoneCountDefinitionType $ClassifiedAdPhoneCount
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdContactByAddressEnabledDefinitionType $ClassifiedAdContactByAddressEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdStreetCountDefinitionType $ClassifiedAdStreetCount
+ * @property \maiorADV\eBaySDK\Trading\Types\ClassifiedAdCompanyNameEnabledDefinitionType $ClassifiedAdCompanyNameEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\SpecialitySubscriptionDefinitionType $SpecialitySubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\RegularSubscriptionDefinitionType $RegularSubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType $PremiumSubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\NonSubscriptionDefinitionType $NonSubscription
+ * @property \maiorADV\eBaySDK\Trading\Types\ReturnPolicyEnabledDefinitionType $ReturnPolicyEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\HandlingTimeEnabledDefinitionType $HandlingTimeEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ReviseQuantityAllowedDefinitionType $ReviseQuantityAllowed
+ * @property \maiorADV\eBaySDK\Trading\Types\RevisePriceAllowedDefinitionType $RevisePriceAllowed
+ * @property \maiorADV\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsEnabledDefinitionType $StoreOwnerExtendedListingDurationsEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsDefinitionType $StoreOwnerExtendedListingDurations
+ * @property \maiorADV\eBaySDK\Trading\Types\PaymentMethodDefinitionType $PaymentMethod
+ * @property \maiorADV\eBaySDK\Trading\Types\Group1MaxFlatShippingCostDefinitionType $Group1MaxFlatShippingCost
+ * @property \maiorADV\eBaySDK\Trading\Types\Group2MaxFlatShippingCostDefinitionType $Group2MaxFlatShippingCost
+ * @property \maiorADV\eBaySDK\Trading\Types\Group3MaxFlatShippingCostDefinitionType $Group3MaxFlatShippingCost
+ * @property \maiorADV\eBaySDK\Trading\Types\MaxFlatShippingCostCBTExemptDefinitionType $MaxFlatShippingCostCBTExempt
+ * @property \maiorADV\eBaySDK\Trading\Types\MaxFlatShippingCostDefinitionType $MaxFlatShippingCost
+ * @property \maiorADV\eBaySDK\Trading\Types\VariationsEnabledDefinitionType $VariationsEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\FreeGalleryPlusEnabledDefinitionType $FreeGalleryPlusEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType $FreePicturePackEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ItemCompatibilityEnabledDefinitionType $ItemCompatibilityEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\MaxItemCompatibilityDefinitionType $MaxItemCompatibility
+ * @property \maiorADV\eBaySDK\Trading\Types\MinItemCompatibilityDefinitionType $MinItemCompatibility
+ * @property \maiorADV\eBaySDK\Trading\Types\ConditionEnabledDefinitionType $ConditionEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ConditionValuesDefinitionType $ConditionValues
+ * @property \maiorADV\eBaySDK\Trading\Types\ValueCategoryDefinitionType $ValueCategory
+ * @property \maiorADV\eBaySDK\Trading\Types\ProductCreationEnabledDefinitionType $ProductCreationEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EANEnabledDefinitionType $EANEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\ISBNEnabledDefinitionType $ISBNEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\UPCEnabledDefinitionType $UPCEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\CompatibleVehicleTypeDefinitionType $CompatibleVehicleType
+ * @property \maiorADV\eBaySDK\Trading\Types\MaxGranularFitmentCountDefinitionType $MaxGranularFitmentCount
+ * @property \maiorADV\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType $ShippingProfileCategoryGroup
+ * @property \maiorADV\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType $PaymentProfileCategoryGroup
+ * @property \maiorADV\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType $ReturnPolicyProfileCategoryGroup
+ * @property \maiorADV\eBaySDK\Trading\Types\VINSupportedDefinitionType $VINSupported
+ * @property \maiorADV\eBaySDK\Trading\Types\VRMSupportedDefinitionType $VRMSupported
+ * @property \maiorADV\eBaySDK\Trading\Types\SellerProvidedTitleSupportedDefinitionType $SellerProvidedTitleSupported
+ * @property \maiorADV\eBaySDK\Trading\Types\DepositSupportedDefinitionType $DepositSupported
+ * @property \maiorADV\eBaySDK\Trading\Types\GlobalShippingEnabledDefinitionType $GlobalShippingEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\AdditionalCompatibilityEnabledDefinitionType $AdditionalCompatibilityEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\PickupDropOffEnabledDefinitionType $PickupDropOffEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\DigitalGoodDeliveryEnabledDefinitionType $DigitalGoodDeliveryEnabled
+ * @property \maiorADV\eBaySDK\Trading\Types\EpidSupportedDefinitionType $EpidSupported
+ * @property \maiorADV\eBaySDK\Trading\Types\KTypeSupportedDefinitionType $KTypeSupported
+ * @property \maiorADV\eBaySDK\Trading\Types\ProductRequiredEnabledDefinitionType $ProductRequiredEnabled
  */
-class FeatureDefinitionsType extends \DTS\eBaySDK\Types\BaseType
+class FeatureDefinitionsType extends \maiorADV\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ListingDurations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ListingDurationDefinitionsType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ListingDurationDefinitionsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ListingDurations'
         ],
         'ShippingTermsRequired' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShippingTermRequiredDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ShippingTermRequiredDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingTermsRequired'
         ],
         'BestOfferEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\BestOfferEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferEnabled'
         ],
         'HomePageFeaturedEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\HomePageFeaturedEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\HomePageFeaturedEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'HomePageFeaturedEnabled'
         ],
         'ProPackEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProPackEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ProPackEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProPackEnabled'
         ],
         'ValuePackEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ValuePackEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ValuePackEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ValuePackEnabled'
         ],
         'ProPackPlusEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProPackPlusEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ProPackPlusEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProPackPlusEnabled'
         ],
         'AdFormatEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AdFormatEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\AdFormatEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdFormatEnabled'
         ],
         'BestOfferCounterEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferCounterEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\BestOfferCounterEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferCounterEnabled'
         ],
         'BestOfferAutoDeclineEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferAutoDeclineEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\BestOfferAutoDeclineEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferAutoDeclineEnabled'
         ],
         'LocalMarketSpecialitySubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketSpecialitySubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketSpecialitySubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketSpecialitySubscription'
         ],
         'LocalMarketRegularSubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketRegularSubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketRegularSubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketRegularSubscription'
         ],
         'LocalMarketPremiumSubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketPremiumSubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketPremiumSubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketPremiumSubscription'
         ],
         'LocalMarketNonSubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketNonSubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketNonSubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketNonSubscription'
         ],
         'MinimumReservePrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MinimumReservePriceDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\MinimumReservePriceDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinimumReservePrice'
         ],
         'TransactionConfirmationRequestEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TCREnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\TCREnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TransactionConfirmationRequestEnabled'
         ],
         'SellerContactDetailsEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerContactDetailsEnabled'
         ],
         'SkypeMeTransactionalEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SkypeMeTransactionalEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SkypeMeTransactionalEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SkypeMeTransactionalEnabled'
         ],
         'SkypeMeNonTransactionalEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SkypeMeNonTransactionalEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SkypeMeNonTransactionalEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SkypeMeNonTransactionalEnabled'
         ],
         'LocalListingDistancesRegular' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalListingDistancesRegularDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalListingDistancesRegularDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalListingDistancesRegular'
         ],
         'LocalListingDistancesSpecialty' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalListingDistancesSpecialtyDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalListingDistancesSpecialtyDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalListingDistancesSpecialty'
         ],
         'LocalListingDistancesNonSubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalListingDistancesNonSubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalListingDistancesNonSubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalListingDistancesNonSubscription'
         ],
         'ClassifiedAdPaymentMethodEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdPaymentMethodEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdPaymentMethodEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdPaymentMethodEnabled'
         ],
         'ClassifiedAdShippingMethodEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdShippingMethodEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdShippingMethodEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdShippingMethodEnabled'
         ],
         'ClassifiedAdBestOfferEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdBestOfferEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdBestOfferEnabled'
         ],
         'ClassifiedAdCounterOfferEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdCounterOfferEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdCounterOfferEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdCounterOfferEnabled'
         ],
         'ClassifiedAdAutoDeclineEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdAutoDeclineEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdAutoDeclineEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdAutoDeclineEnabled'
         ],
         'ClassifiedAdContactByPhoneEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdContactByPhoneEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdContactByPhoneEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdContactByPhoneEnabled'
         ],
         'ClassifiedAdContactByEmailEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdContactByEmailEnabledDefintionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdContactByEmailEnabledDefintionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdContactByEmailEnabled'
         ],
         'SafePaymentRequired' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SafePaymentRequiredDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SafePaymentRequiredDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SafePaymentRequired'
         ],
         'ClassifiedAdPayPerLeadEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdPayPerLeadEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdPayPerLeadEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdPayPerLeadEnabled'
         ],
         'ItemSpecificsEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemSpecificsEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ItemSpecificsEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemSpecificsEnabled'
         ],
         'PaisaPayFullEscrowEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaisaPayFullEscrowEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PaisaPayFullEscrowEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaisaPayFullEscrowEnabled'
         ],
         'BrandMPNIdentifierEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\BrandMPNIdentifierEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BrandMPNIdentifierEnabled'
         ],
         'BestOfferAutoAcceptEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BestOfferAutoAcceptEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\BestOfferAutoAcceptEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferAutoAcceptEnabled'
         ],
         'ClassifiedAdAutoAcceptEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdAutoAcceptEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdAutoAcceptEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdAutoAcceptEnabled'
         ],
         'CrossBorderTradeNorthAmericaEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CrossBorderTradeNorthAmericaEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\CrossBorderTradeNorthAmericaEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CrossBorderTradeNorthAmericaEnabled'
         ],
         'CrossBorderTradeGBEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CrossBorderTradeGBEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\CrossBorderTradeGBEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CrossBorderTradeGBEnabled'
         ],
         'CrossBorderTradeAustraliaEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CrossBorderTradeAustraliaEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\CrossBorderTradeAustraliaEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CrossBorderTradeAustraliaEnabled'
         ],
         'PayPalBuyerProtectionEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PayPalBuyerProtectionEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PayPalBuyerProtectionEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PayPalBuyerProtectionEnabled'
         ],
         'BuyerGuaranteeEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\BuyerGuaranteeEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\BuyerGuaranteeEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyerGuaranteeEnabled'
         ],
         'GalleryFeaturedDurations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ListingEnhancementDurationDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ListingEnhancementDurationDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'GalleryFeaturedDurations'
         ],
         'INEscrowWorkflowTimeline' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\INEscrowWorkflowTimelineDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\INEscrowWorkflowTimelineDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'INEscrowWorkflowTimeline'
         ],
         'PayPalRequired' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PayPalRequiredDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PayPalRequiredDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PayPalRequired'
         ],
         'eBayMotorsProAdFormatEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProAdFormatEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProAdFormatEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProAdFormatEnabled'
         ],
         'eBayMotorsProContactByPhoneEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProContactByPhoneEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProContactByPhoneEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProContactByPhoneEnabled'
         ],
         'eBayMotorsProPhoneCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProPhoneCountDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProPhoneCountDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProPhoneCount'
         ],
         'eBayMotorsProContactByAddressEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProContactByAddressEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProContactByAddressEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProContactByAddressEnabled'
         ],
         'eBayMotorsProStreetCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProStreetCountDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProStreetCountDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProStreetCount'
         ],
         'eBayMotorsProCompanyNameEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProCompanyNameEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProCompanyNameEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProCompanyNameEnabled'
         ],
         'eBayMotorsProContactByEmailEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProContactByEmailEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProContactByEmailEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProContactByEmailEnabled'
         ],
         'eBayMotorsProBestOfferEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProBestOfferEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProBestOfferEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProBestOfferEnabled'
         ],
         'eBayMotorsProAutoAcceptEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProAutoAcceptEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProAutoAcceptEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProAutoAcceptEnabled'
         ],
         'eBayMotorsProAutoDeclineEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProAutoDeclineEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProAutoDeclineEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProAutoDeclineEnabled'
         ],
         'eBayMotorsProPaymentMethodCheckOutEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProPaymentMethodCheckOutEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProPaymentMethodCheckOutEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProPaymentMethodCheckOutEnabled'
         ],
         'eBayMotorsProShippingMethodEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProShippingMethodEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProShippingMethodEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProShippingMethodEnabled'
         ],
         'eBayMotorsProCounterOfferEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProCounterOfferEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProCounterOfferEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProCounterOfferEnabled'
         ],
         'eBayMotorsProSellerContactDetailsEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EBayMotorsProSellerContactDetailsEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EBayMotorsProSellerContactDetailsEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eBayMotorsProSellerContactDetailsEnabled'
         ],
         'LocalMarketAdFormatEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketAdFormatEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketAdFormatEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketAdFormatEnabled'
         ],
         'LocalMarketContactByPhoneEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketContactByPhoneEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketContactByPhoneEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketContactByPhoneEnabled'
         ],
         'LocalMarketPhoneCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketPhoneCountDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketPhoneCountDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketPhoneCount'
         ],
         'LocalMarketContactByAddressEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketContactByAddressEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketContactByAddressEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketContactByAddressEnabled'
         ],
         'LocalMarketStreetCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketStreetCountDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketStreetCountDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketStreetCount'
         ],
         'LocalMarketCompanyNameEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketCompanyNameEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketCompanyNameEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketCompanyNameEnabled'
         ],
         'LocalMarketContactByEmailEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketContactByEmailEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketContactByEmailEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketContactByEmailEnabled'
         ],
         'LocalMarketBestOfferEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketBestOfferEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketBestOfferEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketBestOfferEnabled'
         ],
         'LocalMarketAutoAcceptEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketAutoAcceptEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketAutoAcceptEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketAutoAcceptEnabled'
         ],
         'LocalMarketAutoDeclineEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketAutoDeclineEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketAutoDeclineEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketAutoDeclineEnabled'
         ],
         'LocalMarketPaymentMethodCheckOutEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketPaymentMethodCheckOutEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketPaymentMethodCheckOutEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketPaymentMethodCheckOutEnabled'
         ],
         'LocalMarketShippingMethodEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketShippingMethodEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketShippingMethodEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketShippingMethodEnabled'
         ],
         'LocalMarketCounterOfferEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketCounterOfferEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketCounterOfferEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketCounterOfferEnabled'
         ],
         'LocalMarketSellerContactDetailsEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\LocalMarketSellerContactDetailsEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\LocalMarketSellerContactDetailsEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LocalMarketSellerContactDetailsEnabled'
         ],
         'ClassifiedAdPhoneCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdPhoneCountDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdPhoneCountDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdPhoneCount'
         ],
         'ClassifiedAdContactByAddressEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdContactByAddressEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdContactByAddressEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdContactByAddressEnabled'
         ],
         'ClassifiedAdStreetCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdStreetCountDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdStreetCountDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdStreetCount'
         ],
         'ClassifiedAdCompanyNameEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ClassifiedAdCompanyNameEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ClassifiedAdCompanyNameEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ClassifiedAdCompanyNameEnabled'
         ],
         'SpecialitySubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SpecialitySubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SpecialitySubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SpecialitySubscription'
         ],
         'RegularSubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RegularSubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\RegularSubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RegularSubscription'
         ],
         'PremiumSubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PremiumSubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PremiumSubscription'
         ],
         'NonSubscription' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\NonSubscriptionDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\NonSubscriptionDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'NonSubscription'
         ],
         'ReturnPolicyEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ReturnPolicyEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ReturnPolicyEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnPolicyEnabled'
         ],
         'HandlingTimeEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\HandlingTimeEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\HandlingTimeEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'HandlingTimeEnabled'
         ],
         'ReviseQuantityAllowed' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ReviseQuantityAllowedDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ReviseQuantityAllowedDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReviseQuantityAllowed'
         ],
         'RevisePriceAllowed' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\RevisePriceAllowedDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\RevisePriceAllowedDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RevisePriceAllowed'
         ],
         'StoreOwnerExtendedListingDurationsEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StoreOwnerExtendedListingDurationsEnabled'
         ],
         'StoreOwnerExtendedListingDurations' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\StoreOwnerExtendedListingDurationsDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StoreOwnerExtendedListingDurations'
         ],
         'PaymentMethod' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaymentMethodDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PaymentMethodDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaymentMethod'
         ],
         'Group1MaxFlatShippingCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\Group1MaxFlatShippingCostDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\Group1MaxFlatShippingCostDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Group1MaxFlatShippingCost'
         ],
         'Group2MaxFlatShippingCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\Group2MaxFlatShippingCostDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\Group2MaxFlatShippingCostDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Group2MaxFlatShippingCost'
         ],
         'Group3MaxFlatShippingCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\Group3MaxFlatShippingCostDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\Group3MaxFlatShippingCostDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Group3MaxFlatShippingCost'
         ],
         'MaxFlatShippingCostCBTExempt' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaxFlatShippingCostCBTExemptDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\MaxFlatShippingCostCBTExemptDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaxFlatShippingCostCBTExempt'
         ],
         'MaxFlatShippingCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaxFlatShippingCostDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\MaxFlatShippingCostDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaxFlatShippingCost'
         ],
         'VariationsEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationsEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\VariationsEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationsEnabled'
         ],
         'FreeGalleryPlusEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FreeGalleryPlusEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\FreeGalleryPlusEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FreeGalleryPlusEnabled'
         ],
         'FreePicturePackEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\FreePicturePackEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FreePicturePackEnabled'
         ],
         'ItemCompatibilityEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemCompatibilityEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ItemCompatibilityEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemCompatibilityEnabled'
         ],
         'MaxItemCompatibility' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaxItemCompatibilityDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\MaxItemCompatibilityDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaxItemCompatibility'
         ],
         'MinItemCompatibility' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MinItemCompatibilityDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\MinItemCompatibilityDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MinItemCompatibility'
         ],
         'ConditionEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ConditionEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ConditionEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConditionEnabled'
         ],
         'ConditionValues' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ConditionValuesDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ConditionValuesDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ConditionValues'
         ],
         'ValueCategory' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ValueCategoryDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ValueCategoryDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ValueCategory'
         ],
         'ProductCreationEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductCreationEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ProductCreationEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductCreationEnabled'
         ],
         'EANEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EANEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EANEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EANEnabled'
         ],
         'ISBNEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ISBNEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ISBNEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ISBNEnabled'
         ],
         'UPCEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UPCEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\UPCEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UPCEnabled'
         ],
         'CompatibleVehicleType' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\CompatibleVehicleTypeDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\CompatibleVehicleTypeDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CompatibleVehicleType'
         ],
         'MaxGranularFitmentCount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MaxGranularFitmentCountDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\MaxGranularFitmentCountDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'MaxGranularFitmentCount'
         ],
         'ShippingProfileCategoryGroup' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingProfileCategoryGroup'
         ],
         'PaymentProfileCategoryGroup' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaymentProfileCategoryGroup'
         ],
         'ReturnPolicyProfileCategoryGroup' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ProfileCategoryGroupDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnPolicyProfileCategoryGroup'
         ],
         'VINSupported' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VINSupportedDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\VINSupportedDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VINSupported'
         ],
         'VRMSupported' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VRMSupportedDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\VRMSupportedDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VRMSupported'
         ],
         'SellerProvidedTitleSupported' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellerProvidedTitleSupportedDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\SellerProvidedTitleSupportedDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellerProvidedTitleSupported'
         ],
         'DepositSupported' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DepositSupportedDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\DepositSupportedDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DepositSupported'
         ],
         'GlobalShippingEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\GlobalShippingEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\GlobalShippingEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'GlobalShippingEnabled'
         ],
         'AdditionalCompatibilityEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AdditionalCompatibilityEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\AdditionalCompatibilityEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdditionalCompatibilityEnabled'
         ],
         'PickupDropOffEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PickupDropOffEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\PickupDropOffEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickupDropOffEnabled'
         ],
         'DigitalGoodDeliveryEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DigitalGoodDeliveryEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\DigitalGoodDeliveryEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DigitalGoodDeliveryEnabled'
         ],
         'EpidSupported' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\EpidSupportedDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\EpidSupportedDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EpidSupported'
         ],
         'KTypeSupported' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\KTypeSupportedDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\KTypeSupportedDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'KTypeSupported'
         ],
         'ProductRequiredEnabled' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductRequiredEnabledDefinitionType',
+            'type' => 'maiorADV\eBaySDK\Trading\Types\ProductRequiredEnabledDefinitionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ProductRequiredEnabled'
