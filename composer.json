@@ -1,5 +1,5 @@
 {
-    "name": "dts/ebay-sdk-php",
+    "name": "maiorADV/ebay-sdk-php",
     "description": "An eBay SDK for PHP. Use the eBay API in your PHP projects.",
     "keywords": ["ebay", "api", "sdk"],
     "homepage": "http://devbay.net/",
@@ -16,7 +16,7 @@
         "issues": "https://github.com/davidtsadler/ebay-sdk-php/issues"
     },
     "require": {
-        "php": ">=5.5",
+        "php": ">=7.0",
         "guzzlehttp/guzzle": "~6.0",
         "guzzlehttp/psr7": "~1.0",
         "guzzlehttp/promises": "^1.1"
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DTS\\eBaySDK\\": "src/"
+            "maiorADV\\eBaySDK\\": "src/"
         },
         "files": ["src/functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "DTS\\eBaySDK\\Test\\": "test/"
+            "maiorADV\\eBaySDK\\Test\\": "test/"
         },
         "classmap": ["build/"]
     }
